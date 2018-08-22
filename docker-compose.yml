@@ -20,3 +20,6 @@ services:
       - "3000:3000"
     depends_on:
       - db
+    extra_hosts:
+      - example.com:127.0.0.1
+      - baukis.example.com:127.0.0.1
