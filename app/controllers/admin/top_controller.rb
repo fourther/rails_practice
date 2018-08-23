@@ -1,5 +1,6 @@
 class Admin::TopController < ApplicationController
     def index
-        render action: 'index'
+        raise IpAddressRejected
+        # render action: 'index'
     end
 end
