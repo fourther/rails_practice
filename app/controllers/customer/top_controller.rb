@@ -1,6 +1,6 @@
 class Customer::TopController < ApplicationController
     def index
         render action: 'index'
-        # raise Forbidden
+        # raise ActiveRecord::RecordNotFound
     end
 end
