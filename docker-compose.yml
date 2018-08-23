@@ -21,7 +21,7 @@ services:
     depends_on:
       - db
     extra_hosts:
-      - example.com:127.0.0.1
-      - baukis.example.com:127.0.0.1
+      - "example.com:127.0.0.1"
+      - "baukis.example.com:127.0.0.1"
     environment:
       - SECRET_KEY_BASE=$SECRET_KEY_BASE
