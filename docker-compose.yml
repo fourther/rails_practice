@@ -13,7 +13,7 @@ services:
 
   web:
     build: .
-    command: bundle exec rails s -p 3000 -b '0.0.0.0'
+    command: bundle exec rails s -p 3000 -b '0.0.0.0' -e production
     volumes:
       - .:/myapp
     ports:
@@ -23,3 +23,5 @@ services:
     extra_hosts:
       - example.com:127.0.0.1
       - baukis.example.com:127.0.0.1
+    environment:
+      - SECRET_KEY_BASE=$SECRET_KEY_BASE
