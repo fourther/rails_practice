@@ -27,8 +27,16 @@ describe 'ルーティング' do
     example '存在しないパスならerrors/not_foundへ' do
         expect(get: 'http://baukis.example.com/xyz').to route_to(
             controller: 'errors',
-            action: 'routing_error',
+            action: 'not_found',
             anything: 'xyz'
+        )
+    end
+
+    example '顧客トップページ' do
+        expect(get: 'http://example.com/mypage').to route_to(
+            host: 'example.com',
+            controller: 'customer/top',
+            action: 'index'
         )
     end
 end

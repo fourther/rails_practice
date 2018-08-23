@@ -19,10 +19,12 @@ Rails.application.routes.draw do
     end
   end
 
-  namespace :customer do
-    root 'top#index'
+  constraints host: config[:customer][:host] do
+    namespace :customer, path: config[:customer][:path] do
+      root 'top#index'
+    end
   end
 
   root 'errors#not_found'
-  get '*anything' => 'errors#routing_error'
+  get '*anything' => 'errors#not_found'
 end
