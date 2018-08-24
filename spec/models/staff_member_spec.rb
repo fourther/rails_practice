@@ -18,29 +18,29 @@ RSpec.describe StaffMember, :type => :model do
 
     describe '値の正規化' do
         example 'email前後の空白を除去' do
-            member = created(:staff_member, email: ' test@example.com ')
+            member = create(:staff_member, email: ' test@example.com ')
             expect(member.email).to eq('test@example.com')
         end
 
         example 'emailに含まれる全角英数字記号を半角に変換' do
-            member = created(:staff_member, email: 'ｔｅｓｔ@example.com')
+            member = create(:staff_member, email: 'ｔｅｓｔ@example.com')
             expect(member.email).to eq('test@example.com')
         end
 
         example 'email前後の全角スペースを除去' do
-            member = created(:staff_member, email: '\u{3000}test@example.com\u{3000}')
+            member = create(:staff_member, email: '\u{3000}test@example.com\u{3000}')
             expect(member.email).to eq('test@example.com')
         end
 
         example 'family_name_kanaに含まれるひらがなをカタカナに変換' do
-            member = created(:staff_member, family_name_kana: 'てすと')
-            expect(member.email).to eq('テスト')
+            member = create(:staff_member, family_name_kana: 'てすと')
+            expect(member.family_name_kana).to eq('テスト')
         end
     end
 
     describe 'バリデーション' do
         example '@を2個含むemailは無効' do
-            member = build(:staff_member, email: 'test@example.com')
+            member = build(:staff_member, email: 'test@@example.com')
             expect(member).not_to be_valid
         end
 
