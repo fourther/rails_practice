@@ -24,3 +24,4 @@ shared_examples 'a protected singular staff controller' do
         end
     end
 end
+
