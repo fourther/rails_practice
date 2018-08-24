@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8983074c-3523-40e1-98d4-696ff69fd9c6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/controllers/admin/staff_events_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/admin/staff_events_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/kaminari/_last_page.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/kaminari/_last_page.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/kaminari/_next_page.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/kaminari/_next_page.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/kaminari/_prev_page.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/kaminari/_prev_page.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/admin/staff_members_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/admin/staff_members_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/staff_members/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/staff_members/index.html.erb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -29,16 +27,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="erb" value="429" />
-          <entry key="rb" value="2323" />
+          <entry key="erb" value="478" />
+          <entry key="rb" value="2342" />
           <entry key="scss" value="27" />
           <entry key="yml" value="81" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="RHTML" value="429" />
-          <entry key="Ruby" value="2323" />
+          <entry key="RHTML" value="478" />
+          <entry key="Ruby" value="2342" />
           <entry key="SCSS" value="27" />
           <entry key="YAML" value="81" />
         </counts>
@@ -47,7 +45,7 @@
         <counts>
           <entry key="Dockerfile" value="1" />
           <entry key="Gemfile" value="1" />
-          <entry key="erb" value="11" />
+          <entry key="erb" value="12" />
           <entry key="lock" value="1" />
           <entry key="rb" value="27" />
           <entry key="scss" value="1" />
@@ -58,7 +56,7 @@
         <counts>
           <entry key="Dockerfile" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="RHTML" value="11" />
+          <entry key="RHTML" value="12" />
           <entry key="Ruby" value="27" />
           <entry key="SCSS" value="1" />
           <entry key="Scratch" value="1" />
@@ -69,7 +67,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/admin/staff_events_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -89,7 +87,11 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/admin/staff_members_controller.rb">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="97" selection-start-line="2" selection-start-column="97" selection-end-line="2" selection-end-column="97" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -114,18 +116,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/kaminari/_prev_page.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-              <folding>
-                <element signature="e#0#300#0#RHTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/kaminari/_last_page.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
@@ -141,8 +131,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/admin/staff_events/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+            <state relative-caret-position="195">
+              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/admin/staff_members/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -191,7 +190,6 @@
         <option value="$PROJECT_DIR$/db/migrate/20180824044157_create_staff_events.rb" />
         <option value="$PROJECT_DIR$/app/models/staff_member.rb" />
         <option value="$PROJECT_DIR$/app/views/admin/top/dashboard.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/admin/staff_members/index.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/models/staff_event.rb" />
         <option value="$PROJECT_DIR$/app/controllers/staff/sessions_controller.rb" />
@@ -207,6 +205,8 @@
         <option value="$PROJECT_DIR$/app/views/kaminari/_next_page.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/admin/pagination.css.scss" />
         <option value="$PROJECT_DIR$/app/controllers/admin/staff_events_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/admin/staff_members_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/admin/staff_members/index.html.erb" />
       </list>
     </option>
   </component>
@@ -472,7 +472,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="kaminari&#9;FILE&#9;file:///Users/aki/rails_practice/config/initializers/kaminari_config.rb&#10;seeds&#9;FILE&#9;file:///Users/aki/rails_practice/db/seeds.rb&#10;staff&#9;FILE&#9;file:///Users/aki/rails_practice/app/models/staff_member.rb&#10;events_con&#9;FILE&#9;file:///Users/aki/rails_practice/app/controllers/admin/staff_events_controller.rb&#10;route&#9;FILE&#9;file:///Users/aki/rails_practice/config/routes.rb&#10;top_con&#9;FILE&#9;file:///Users/aki/rails_practice/spec/controllers/staff/top_controller_spec.rb" />
+    <property name="SearchEverywhereHistoryKey" value="kamina&#9;FILE&#9;file:///Users/aki/rails_practice/config/initializers/kaminari_config.rb&#10;kaminari&#9;FILE&#9;file:///Users/aki/rails_practice/config/initializers/kaminari_config.rb&#10;seeds&#9;FILE&#9;file:///Users/aki/rails_practice/db/seeds.rb&#10;staff&#9;FILE&#9;file:///Users/aki/rails_practice/app/models/staff_member.rb&#10;events_con&#9;FILE&#9;file:///Users/aki/rails_practice/app/controllers/admin/staff_events_controller.rb&#10;route&#9;FILE&#9;file:///Users/aki/rails_practice/config/routes.rb&#10;top_con&#9;FILE&#9;file:///Users/aki/rails_practice/spec/controllers/staff/top_controller_spec.rb" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="ruby" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -611,19 +611,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1535079983835</updated>
-      <workItem from="1535079987442" duration="7116000" />
+      <workItem from="1535079987442" duration="7349000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7116000" />
+    <option name="totallyTimeSpent" value="7349000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="14" y="23" width="1346" height="676" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16947852" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16947852" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
@@ -727,13 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/admin/staff_members/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -871,13 +864,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/admin/staff_events/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/admin/staff_events/_event.html.erb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -895,13 +881,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/admin/staff_members_controller.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/admin/staff_events_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/admin/staff_members_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="97" selection-start-line="2" selection-start-column="97" selection-end-line="2" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/staff_events/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/staff_members/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
         </state>
       </provider>
     </entry>
