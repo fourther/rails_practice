@@ -28,7 +28,7 @@ RSpec.describe StaffMember, :type => :model do
         end
 
         example 'email前後の全角スペースを除去' do
-            member = create(:staff_member, email: '\u{3000}test@example.com\u{3000}')
+            member = create(:staff_member, email: "\u{3000}test@example.com\u{3000}")
             expect(member.email).to eq('test@example.com')
         end
 
