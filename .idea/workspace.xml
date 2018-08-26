@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8983074c-3523-40e1-98d4-696ff69fd9c6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/views/admin/staff_events/_event.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/staff_events/_event.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/staff_events/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/staff_events/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/staff_members/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/staff_members/index.html.erb" afterDir="false" />
-    </list>
+    <list default="true" id="8983074c-3523-40e1-98d4-696ff69fd9c6" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -29,7 +25,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="erb" value="1392" />
-          <entry key="rb" value="7242" />
+          <entry key="rb" value="7806" />
           <entry key="scss" value="316" />
           <entry key="yml" value="81" />
         </counts>
@@ -37,7 +33,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="RHTML" value="1392" />
-          <entry key="Ruby" value="7242" />
+          <entry key="Ruby" value="7806" />
           <entry key="SCSS" value="316" />
           <entry key="YAML" value="81" />
         </counts>
@@ -48,7 +44,7 @@
           <entry key="Gemfile" value="2" />
           <entry key="erb" value="20" />
           <entry key="lock" value="1" />
-          <entry key="rb" value="68" />
+          <entry key="rb" value="70" />
           <entry key="scss" value="6" />
           <entry key="yml" value="5" />
         </counts>
@@ -58,7 +54,7 @@
           <entry key="Dockerfile" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="RHTML" value="20" />
-          <entry key="Ruby" value="69" />
+          <entry key="Ruby" value="71" />
           <entry key="SCSS" value="6" />
           <entry key="Scratch" value="1" />
           <entry key="YAML" value="5" />
@@ -68,15 +64,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/staff/passwords_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/staff_member.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -131,11 +118,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/lib/html_builder.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+            <state relative-caret-position="210">
+              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/presenters/form_presenter.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/presenters/staff_member_form_presenter.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -213,6 +218,8 @@
         <option value="$PROJECT_DIR$/app/views/admin/staff_events/index.html.erb" />
         <option value="$PROJECT_DIR$/app/presenters/model_presenter.rb" />
         <option value="$PROJECT_DIR$/app/lib/html_builder.rb" />
+        <option value="$PROJECT_DIR$/app/presenters/form_presenter.rb" />
+        <option value="$PROJECT_DIR$/app/presenters/staff_member_form_presenter.rb" />
       </list>
     </option>
   </component>
@@ -595,7 +602,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21597000" />
+    <option name="totallyTimeSpent" value="22183000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="14" y="23" width="1346" height="676" extended-state="0" />
@@ -630,20 +637,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/admin/form.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/admin/_colors.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/staff_event.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -900,8 +893,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/lib/html_builder.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+        <state relative-caret-position="210">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presenters/form_presenter.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presenters/staff_member_form_presenter.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
         </state>
       </provider>
     </entry>
