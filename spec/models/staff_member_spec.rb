@@ -49,6 +49,11 @@ RSpec.describe StaffMember, :type => :model do
             expect(member).not_to be_valid
         end
 
+        example '数字を含むfamily_nameは無効' do
+            member = build(:staff_member, family_name: '佐藤mark2')
+            expect(member).not_to be_valid
+        end
+
         example '長音符を含むfamily_name_kanaは有効' do
             member = build(:staff_member, family_name_kana: 'エリー')
             expect(member).to be_valid

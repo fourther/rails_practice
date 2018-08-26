@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8983074c-3523-40e1-98d4-696ff69fd9c6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/staff/_colors.css.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/staff/_colors.css.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/staff/form.css.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/staff/form.css.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/staff/passwords_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/staff/passwords_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/forms/staff/change_password_form.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/forms/staff/change_password_form.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/staff_member.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/staff_member.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/models/staff_member_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/staff_member_spec.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -30,7 +28,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="erb" value="1098" />
-          <entry key="rb" value="5857" />
+          <entry key="rb" value="6034" />
           <entry key="scss" value="316" />
           <entry key="yml" value="81" />
         </counts>
@@ -38,7 +36,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="RHTML" value="1098" />
-          <entry key="Ruby" value="5857" />
+          <entry key="Ruby" value="6034" />
           <entry key="SCSS" value="316" />
           <entry key="YAML" value="81" />
         </counts>
@@ -49,7 +47,7 @@
           <entry key="Gemfile" value="2" />
           <entry key="erb" value="17" />
           <entry key="lock" value="1" />
-          <entry key="rb" value="62" />
+          <entry key="rb" value="64" />
           <entry key="scss" value="6" />
           <entry key="yml" value="5" />
         </counts>
@@ -59,7 +57,7 @@
           <entry key="Dockerfile" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="RHTML" value="17" />
-          <entry key="Ruby" value="63" />
+          <entry key="Ruby" value="65" />
           <entry key="SCSS" value="6" />
           <entry key="Scratch" value="1" />
           <entry key="YAML" value="5" />
@@ -69,11 +67,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/staff/passwords_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+            <state relative-caret-position="285">
+              <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/staff_member.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spec/models/staff_member_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="52" column="62" selection-start-line="52" selection-start-column="62" selection-end-line="52" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -85,16 +101,6 @@
               <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/staff/top_controller.rb">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/staff/accounts_controller.rb">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -188,8 +194,6 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/admin/_colors.css.scss" />
         <option value="$PROJECT_DIR$/app/models/concerns/string_normalizer.rb" />
         <option value="$PROJECT_DIR$/spec/factories/staff_members.rb" />
-        <option value="$PROJECT_DIR$/app/models/staff_member.rb" />
-        <option value="$PROJECT_DIR$/spec/models/staff_member_spec.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/staff/tables.css.scss" />
         <option value="$PROJECT_DIR$/app/views/staff/accounts/show.html.erb" />
@@ -198,6 +202,8 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/staff/form.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/staff/_colors.css.scss" />
         <option value="$PROJECT_DIR$/app/controllers/staff/passwords_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/staff_member.rb" />
+        <option value="$PROJECT_DIR$/spec/models/staff_member_spec.rb" />
       </list>
     </option>
   </component>
@@ -717,7 +723,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16620000" />
+    <option name="totallyTimeSpent" value="16992000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="14" y="23" width="1346" height="676" extended-state="0" />
@@ -922,13 +928,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/staff_member_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="30" column="52" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/seeds/development/staff_members.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-154" />
@@ -957,13 +956,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/models/administrator_spec.rb">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/staff_member.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/staff/tables.css.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -1024,8 +1016,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/staff/passwords_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        <state relative-caret-position="285">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/staff_member.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/staff_member_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="52" column="62" selection-start-line="52" selection-start-column="62" selection-end-line="52" selection-end-column="62" />
         </state>
       </provider>
     </entry>
