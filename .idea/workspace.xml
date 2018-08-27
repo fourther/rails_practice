@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8983074c-3523-40e1-98d4-696ff69fd9c6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/spec/factories/customers.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/factories/customers.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/features/staff/customer_management_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/features/staff/customer_management_spec.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -30,7 +30,7 @@
           <entry key="css" value="51" />
           <entry key="erb" value="2966" />
           <entry key="js" value="143" />
-          <entry key="rb" value="16973" />
+          <entry key="rb" value="17749" />
           <entry key="scss" value="650" />
           <entry key="yml" value="938" />
         </counts>
@@ -41,7 +41,7 @@
           <entry key="CoffeeScript" value="1124" />
           <entry key="JavaScript" value="143" />
           <entry key="RHTML" value="2966" />
-          <entry key="Ruby" value="16973" />
+          <entry key="Ruby" value="17749" />
           <entry key="SCSS" value="650" />
           <entry key="YAML" value="938" />
         </counts>
@@ -55,7 +55,7 @@
           <entry key="erb" value="41" />
           <entry key="js" value="7" />
           <entry key="lock" value="1" />
-          <entry key="rb" value="131" />
+          <entry key="rb" value="132" />
           <entry key="scss" value="11" />
           <entry key="yml" value="8" />
         </counts>
@@ -68,7 +68,7 @@
           <entry key="JavaScript" value="7" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="RHTML" value="41" />
-          <entry key="Ruby" value="132" />
+          <entry key="Ruby" value="133" />
           <entry key="SCSS" value="11" />
           <entry key="Scratch" value="1" />
           <entry key="YAML" value="8" />
@@ -110,20 +110,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/factories/customers.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/features/staff/customer_management_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -138,6 +129,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
               <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spec/features/staff/customer_management_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="846">
+              <caret line="70" column="2" selection-start-line="70" selection-start-column="2" selection-end-line="70" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -231,8 +231,8 @@
         <option value="$PROJECT_DIR$/app/controllers/staff/customers_controller.rb" />
         <option value="$PROJECT_DIR$/spec/support/features_spec_helper.rb" />
         <option value="$PROJECT_DIR$/spec/factories/addresses.rb" />
-        <option value="$PROJECT_DIR$/spec/features/staff/customer_management_spec.rb" />
         <option value="$PROJECT_DIR$/spec/factories/customers.rb" />
+        <option value="$PROJECT_DIR$/spec/features/staff/customer_management_spec.rb" />
       </list>
     </option>
   </component>
@@ -763,7 +763,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42608000" />
+    <option name="totallyTimeSpent" value="43295000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="14" y="23" width="1346" height="676" extended-state="0" />
@@ -1085,13 +1085,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/presenters/customer_form_presenter.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/admin/staff_members/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1112,16 +1105,6 @@
           <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/features/staff/customer_management_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/factories/administrators.rb">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/factories/staff_members.rb">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1144,6 +1127,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/factories/administrators.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presenters/customer_form_presenter.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/features/staff/customer_management_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="846">
+          <caret line="70" column="2" selection-start-line="70" selection-start-column="2" selection-end-line="70" selection-end-column="2" />
         </state>
       </provider>
     </entry>
