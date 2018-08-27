@@ -8,7 +8,7 @@ FactoryGirl.define do
         password 'pw'
         birthday Date.new(1970, 1, 1)
         gender 'male'
-        associtaion :home_address, strategy: :build
-        associtaion :work_address, strategy: :build
+        association :home_address, strategy: :build
+        association :work_address, strategy: :build
     end
 end
