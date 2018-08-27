@@ -1,4 +1,6 @@
 class Address < ActiveRecord::Base
+    include StringNormalizer
+
     belongs_to :customer
 
     before_validation do
