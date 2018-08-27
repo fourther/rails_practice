@@ -4,7 +4,11 @@ module StringNormalizer
     extend ActiveSupport::Concern
 
     def normalize_as_email(text)
-        NKF.nkf('-WwZ1', text).strip #if text
+        NKF.nkf('-WwZ1', text).strip if text
+    end
+
+    def normalize_as_postal_code(text)
+        NKF.nkf('-WwZ1', text).strip.gsub(/-/, '') if text
     end
 
     def normalize_as_name(text)
