@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8983074c-3523-40e1-98d4-696ff69fd9c6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/controllers/staff/customers_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/staff/customers_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/presenters/form_presenter.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/presenters/form_presenter.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/presenters/staff_member_form_presenter.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/presenters/staff_member_form_presenter.rb" afterDir="false" />
-    </list>
+    <list default="true" id="8983074c-3523-40e1-98d4-696ff69fd9c6" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -28,23 +24,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="coffee" value="802" />
+          <entry key="coffee" value="1124" />
           <entry key="css" value="51" />
           <entry key="erb" value="2966" />
           <entry key="js" value="143" />
           <entry key="rb" value="13948" />
-          <entry key="scss" value="577" />
+          <entry key="scss" value="650" />
           <entry key="yml" value="938" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="51" />
-          <entry key="CoffeeScript" value="802" />
+          <entry key="CoffeeScript" value="1124" />
           <entry key="JavaScript" value="143" />
           <entry key="RHTML" value="2966" />
           <entry key="Ruby" value="13948" />
-          <entry key="SCSS" value="577" />
+          <entry key="SCSS" value="650" />
           <entry key="YAML" value="938" />
         </counts>
       </usages-collector>
@@ -52,26 +48,26 @@
         <counts>
           <entry key="Dockerfile" value="1" />
           <entry key="Gemfile" value="2" />
-          <entry key="coffee" value="3" />
+          <entry key="coffee" value="5" />
           <entry key="css" value="3" />
-          <entry key="erb" value="39" />
+          <entry key="erb" value="40" />
           <entry key="js" value="7" />
           <entry key="lock" value="1" />
           <entry key="rb" value="110" />
-          <entry key="scss" value="10" />
+          <entry key="scss" value="11" />
           <entry key="yml" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="3" />
-          <entry key="CoffeeScript" value="3" />
+          <entry key="CoffeeScript" value="5" />
           <entry key="Dockerfile" value="1" />
           <entry key="JavaScript" value="7" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="RHTML" value="39" />
+          <entry key="RHTML" value="40" />
           <entry key="Ruby" value="111" />
-          <entry key="SCSS" value="10" />
+          <entry key="SCSS" value="11" />
           <entry key="Scratch" value="1" />
           <entry key="YAML" value="8" />
         </counts>
@@ -80,15 +76,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/staff/customers_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="72" selection-start-line="15" selection-start-column="72" selection-end-line="15" selection-end-column="72" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/presenters/user_form_presenter.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -117,15 +104,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/presenters/staff_member_presenter.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/presenters/address_presenter.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -143,7 +121,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/presenters/form_presenter.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="314">
@@ -153,19 +131,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/forms/staff/customer_form.rb">
+        <entry file="file://$PROJECT_DIR$/app/views/staff/customers/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+            <state relative-caret-position="180">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/staff/customers/show.html.erb">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/staff/customer_form.js.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+            <state relative-caret-position="150">
+              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/staff/datepicker.js.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/shared/datepicker.css.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -192,9 +188,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/views/admin/staff_events/_event.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/admin/staff_events/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/lib/html_builder.rb" />
         <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
         <option value="$PROJECT_DIR$/config/locales/models/staff_member.ja.yml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/admin/form.css.scss" />
@@ -243,6 +236,9 @@
         <option value="$PROJECT_DIR$/app/presenters/customer_form_presenter.rb" />
         <option value="$PROJECT_DIR$/app/presenters/address_form_presenter.rb" />
         <option value="$PROJECT_DIR$/app/presenters/form_presenter.rb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/staff/customer_form.js.coffee" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/staff/datepicker.js.coffee" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/shared/datepicker.css.scss" />
       </list>
     </option>
   </component>
@@ -347,7 +343,23 @@
               <item name="rails_practice" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
+              <item name="staff" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rails_practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rails_practice" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rails_practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rails_practice" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rails_practice" type="b2602c69:ProjectViewProjectNode" />
@@ -730,7 +742,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37785000" />
+    <option name="totallyTimeSpent" value="38279000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="14" y="23" width="1346" height="676" extended-state="0" />
@@ -787,34 +799,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/staff/passwords/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/locales/models/staff/change_password_form.ja.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/admin/staff_members/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/staff/accounts/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/staff/accounts/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1123,6 +1107,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="314">
           <caret line="53" column="40" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/staff/customers/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/staff/customer_form.js.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/staff/datepicker.js.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/shared/datepicker.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
         </state>
       </provider>
     </entry>
