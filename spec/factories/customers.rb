@@ -1,6 +1,6 @@
 FactoryGirl.define do
     factory :customer do
-        sequence(:email) { |n| "member#{n}example.jp"}
+        sequence(:email) { |n| "member#{n}@example.jp"}
         family_name '山田'
         given_name '太郎'
         family_name_kana 'ヤマダ'
