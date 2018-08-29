@@ -1,7 +1,10 @@
 class Administrator < ActiveRecord::Base
+    # include EmailHolder
     before_validation do
+        self.email = normalize_as_email(email)
         self.email_for_index = email.downcase if email
     end
+
 
     def password=(raw_password)
         if raw_password.kind_of?(String)
