@@ -30,7 +30,7 @@
           <entry key="css" value="51" />
           <entry key="erb" value="2966" />
           <entry key="js" value="143" />
-          <entry key="rb" value="18730" />
+          <entry key="rb" value="18935" />
           <entry key="scss" value="650" />
           <entry key="yml" value="1557" />
         </counts>
@@ -41,7 +41,7 @@
           <entry key="CoffeeScript" value="1124" />
           <entry key="JavaScript" value="143" />
           <entry key="RHTML" value="2966" />
-          <entry key="Ruby" value="18730" />
+          <entry key="Ruby" value="18935" />
           <entry key="SCSS" value="650" />
           <entry key="YAML" value="1557" />
         </counts>
@@ -153,8 +153,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/forms/staff/customer_form.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+            <state relative-caret-position="345">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -778,7 +778,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45335000" />
+    <option name="totallyTimeSpent" value="45620000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="14" y="23" width="1346" height="676" extended-state="0" />
@@ -1157,8 +1157,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/forms/staff/customer_form.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+        <state relative-caret-position="345">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
