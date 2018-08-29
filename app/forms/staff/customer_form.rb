@@ -19,26 +19,34 @@ class Staff::CustomerForm
         customer.work_address.assign_attributes(work_address_params)
     end
 
+    def valid?
+        customer.valid? && customer.home_address.valid? &&
+            customer.work_address.valid?
+    end
+
     def save
-        ActiveRecord::Base.transaction do
-            customer.save!
-            customer.home_address.save!
-            customer.work_address.save!
+        if valid?
+            ActiveRecord::Base.transaction do
+                customer.save!
+                customer.home_address.save!
+                customer.work_address.save!
+            end
         end
     end
 
     private
+
     def customer_params
         @params.require(:customer).permit(
-                                      :email, :password,
-                                      :family_name, :given_name, :family_name_kana, :given_name_kana,
-                                      :birthday, :gender
+            :email, :password,
+            :family_name, :given_name, :family_name_kana, :given_name_kana,
+            :birthday, :gender
         )
     end
 
     def home_address_params
         @params.require(:home_address).permit(
-                                          :postal_code, :prefecture, :city, :address1, :address2,
+            :postal_code, :prefecture, :city, :address1, :address2,
         )
     end
 
@@ -46,6 +54,6 @@ class Staff::CustomerForm
         @params.require(:work_address).permit(
             :postal_code, :prefecture, :city, :address1, :address2,
             :company_name, :division_name
-            )
+        )
     end
 end
