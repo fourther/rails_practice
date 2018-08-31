@@ -28,7 +28,7 @@
           <entry key="css" value="51" />
           <entry key="erb" value="4145" />
           <entry key="js" value="143" />
-          <entry key="rb" value="24746" />
+          <entry key="rb" value="25165" />
           <entry key="scss" value="650" />
           <entry key="yml" value="1557" />
         </counts>
@@ -39,7 +39,7 @@
           <entry key="CoffeeScript" value="1647" />
           <entry key="JavaScript" value="143" />
           <entry key="RHTML" value="4145" />
-          <entry key="Ruby" value="24746" />
+          <entry key="Ruby" value="25165" />
           <entry key="SCSS" value="650" />
           <entry key="YAML" value="1557" />
         </counts>
@@ -53,7 +53,7 @@
           <entry key="erb" value="49" />
           <entry key="js" value="7" />
           <entry key="lock" value="1" />
-          <entry key="rb" value="166" />
+          <entry key="rb" value="168" />
           <entry key="scss" value="11" />
           <entry key="yml" value="10" />
         </counts>
@@ -66,7 +66,7 @@
           <entry key="JavaScript" value="7" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="RHTML" value="49" />
-          <entry key="Ruby" value="167" />
+          <entry key="Ruby" value="169" />
           <entry key="SCSS" value="11" />
           <entry key="Scratch" value="1" />
           <entry key="YAML" value="10" />
@@ -76,24 +76,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/presenters/staff_event_presenter.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="60" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/presenters/address_presenter.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/staff/customers/_home_address_fields.html.erb">
           <provider selected="true" editor-type-id="text-editor">
@@ -139,11 +121,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/migrate/20180831083421_alter_addresses1.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/customer.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20180831094029_update_customers1.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -188,7 +188,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/db/migrate/20180827005349_create_addresses.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20180827005315_create_customers.rb" />
         <option value="$PROJECT_DIR$/db/seeds.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
@@ -225,7 +224,6 @@
         <option value="$PROJECT_DIR$/app/models/address.rb" />
         <option value="$PROJECT_DIR$/app/views/staff/customers/show.html.erb" />
         <option value="$PROJECT_DIR$/app/presenters/address_presenter.rb" />
-        <option value="$PROJECT_DIR$/app/models/customer.rb" />
         <option value="$PROJECT_DIR$/app/presenters/customer_presenter.rb" />
         <option value="$PROJECT_DIR$/db/seeds/development/customers.rb" />
         <option value="$PROJECT_DIR$/app/presenters/form_presenter.rb" />
@@ -239,6 +237,8 @@
         <option value="$PROJECT_DIR$/spec/features/staff/phone_management_spec.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20180831083403_alter_customers1.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20180831083421_alter_addresses1.rb" />
+        <option value="$PROJECT_DIR$/app/models/customer.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20180831094029_update_customers1.rb" />
       </list>
     </option>
   </component>
@@ -620,7 +620,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="routes&#9;FILE&#9;file:///Users/aki/rails_practice/config/routes.rb&#10;password&#9;FILE&#9;file:///Users/aki/rails_practice/app/controllers/staff/passwords_controller.rb&#10;passwor&#9;FILE&#9;file:///Users/aki/rails_practice/app/controllers/staff/passwords_controller.rb&#10;sta&#9;FILE&#9;file:///Users/aki/rails_practice/app/models/staff_member.rb&#10;kamina&#9;FILE&#9;file:///Users/aki/rails_practice/config/initializers/kaminari_config.rb&#10;kaminari&#9;FILE&#9;file:///Users/aki/rails_practice/config/initializers/kaminari_config.rb&#10;seeds&#9;FILE&#9;file:///Users/aki/rails_practice/db/seeds.rb&#10;staff&#9;FILE&#9;file:///Users/aki/rails_practice/app/models/staff_member.rb&#10;events_con&#9;FILE&#9;file:///Users/aki/rails_practice/app/controllers/admin/staff_events_controller.rb&#10;route&#9;FILE&#9;file:///Users/aki/rails_practice/config/routes.rb&#10;top_con&#9;FILE&#9;file:///Users/aki/rails_practice/spec/controllers/staff/top_controller_spec.rb" />
+    <property name="SearchEverywhereHistoryKey" value="update_c&#9;FILE&#9;file:///Users/aki/rails_practice/db/migrate/20180831094029_update_customers1.rb&#10;routes&#9;FILE&#9;file:///Users/aki/rails_practice/config/routes.rb&#10;password&#9;FILE&#9;file:///Users/aki/rails_practice/app/controllers/staff/passwords_controller.rb&#10;passwor&#9;FILE&#9;file:///Users/aki/rails_practice/app/controllers/staff/passwords_controller.rb&#10;sta&#9;FILE&#9;file:///Users/aki/rails_practice/app/models/staff_member.rb&#10;kamina&#9;FILE&#9;file:///Users/aki/rails_practice/config/initializers/kaminari_config.rb&#10;kaminari&#9;FILE&#9;file:///Users/aki/rails_practice/config/initializers/kaminari_config.rb&#10;seeds&#9;FILE&#9;file:///Users/aki/rails_practice/db/seeds.rb&#10;staff&#9;FILE&#9;file:///Users/aki/rails_practice/app/models/staff_member.rb&#10;events_con&#9;FILE&#9;file:///Users/aki/rails_practice/app/controllers/admin/staff_events_controller.rb&#10;route&#9;FILE&#9;file:///Users/aki/rails_practice/config/routes.rb&#10;top_con&#9;FILE&#9;file:///Users/aki/rails_practice/spec/controllers/staff/top_controller_spec.rb" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="ruby" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -768,7 +768,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57516000" />
+    <option name="totallyTimeSpent" value="57922000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="14" y="23" width="1346" height="676" extended-state="0" />
@@ -825,13 +825,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/staff/datepicker.js.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/shared/datepicker.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1047,13 +1040,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/customer.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/staff/customer_form.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1163,6 +1149,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/customer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20180831094029_update_customers1.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
         </state>
       </provider>
     </entry>
