@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8983074c-3523-40e1-98d4-696ff69fd9c6" name="Default Changelist" comment="" />
+    <list default="true" id="8983074c-3523-40e1-98d4-696ff69fd9c6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app/forms/staff/customer_form.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/forms/staff/customer_form.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/features/staff/phone_management_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/features/staff/phone_management_spec.rb" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -26,9 +29,9 @@
         <counts>
           <entry key="coffee" value="1541" />
           <entry key="css" value="51" />
-          <entry key="erb" value="3897" />
+          <entry key="erb" value="4134" />
           <entry key="js" value="143" />
-          <entry key="rb" value="23356" />
+          <entry key="rb" value="23779" />
           <entry key="scss" value="650" />
           <entry key="yml" value="1557" />
         </counts>
@@ -38,8 +41,8 @@
           <entry key="CSS" value="51" />
           <entry key="CoffeeScript" value="1541" />
           <entry key="JavaScript" value="143" />
-          <entry key="RHTML" value="3897" />
-          <entry key="Ruby" value="23356" />
+          <entry key="RHTML" value="4134" />
+          <entry key="Ruby" value="23779" />
           <entry key="SCSS" value="650" />
           <entry key="YAML" value="1557" />
         </counts>
@@ -50,7 +53,7 @@
           <entry key="Gemfile" value="2" />
           <entry key="coffee" value="6" />
           <entry key="css" value="3" />
-          <entry key="erb" value="46" />
+          <entry key="erb" value="47" />
           <entry key="js" value="7" />
           <entry key="lock" value="1" />
           <entry key="rb" value="156" />
@@ -65,7 +68,7 @@
           <entry key="Dockerfile" value="1" />
           <entry key="JavaScript" value="7" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="RHTML" value="46" />
+          <entry key="RHTML" value="47" />
           <entry key="Ruby" value="157" />
           <entry key="SCSS" value="11" />
           <entry key="Scratch" value="1" />
@@ -97,17 +100,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/features/staff/phone_management_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="70" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/seeds/development/customers.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="46" column="82" selection-start-line="46" selection-start-column="82" selection-end-line="46" selection-end-column="82" />
+            <state relative-caret-position="506">
+              <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -115,8 +109,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/forms/staff/customer_form.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="38" column="45" lean-forward="true" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
+            <state relative-caret-position="440">
+              <caret line="47" column="47" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/staff/customers/_home_address_fields.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -143,7 +146,7 @@
         <entry file="file://$PROJECT_DIR$/app/presenters/form_presenter.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="371">
-              <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+              <caret line="67" selection-start-line="67" selection-end-line="67" />
             </state>
           </provider>
         </entry>
@@ -188,7 +191,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/assets/javascripts/shared/datepicker.js.coffee" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/admin.css" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/staff.css" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/customer.css" />
@@ -237,6 +239,7 @@
         <option value="$PROJECT_DIR$/app/presenters/form_presenter.rb" />
         <option value="$PROJECT_DIR$/app/views/staff/customers/_phone_fields.html.erb" />
         <option value="$PROJECT_DIR$/app/views/staff/customers/_customer_fields.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/staff/customers/_home_address_fields.html.erb" />
         <option value="$PROJECT_DIR$/app/forms/staff/customer_form.rb" />
         <option value="$PROJECT_DIR$/spec/features/staff/phone_management_spec.rb" />
       </list>
@@ -768,7 +771,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54642000" />
+    <option name="totallyTimeSpent" value="55180000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="14" y="23" width="1346" height="676" extended-state="0" />
@@ -825,13 +828,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spec/controllers/staff/top_controller_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="67" selection-start-line="13" selection-start-column="67" selection-end-line="13" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/staff/top/dashboard.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1113,7 +1109,7 @@
     <entry file="file://$PROJECT_DIR$/app/presenters/form_presenter.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="371">
-          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
         </state>
       </provider>
     </entry>
@@ -1138,13 +1134,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/forms/staff/customer_form.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="38" column="45" lean-forward="true" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/customer.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1159,10 +1148,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/staff/customers/_home_address_fields.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/forms/staff/customer_form.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="47" column="47" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spec/features/staff/phone_management_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="70" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
+        <state relative-caret-position="506">
+          <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
         </state>
       </provider>
     </entry>
