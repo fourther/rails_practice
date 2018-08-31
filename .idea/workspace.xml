@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8983074c-3523-40e1-98d4-696ff69fd9c6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/app/forms/staff/customer_form.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/forms/staff/customer_form.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/customer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/customer.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/presenters/address_presenter.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/presenters/address_presenter.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/presenters/customer_presenter.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/presenters/customer_presenter.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/presenters/form_presenter.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/presenters/form_presenter.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/staff/customers/_customer_fields.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/staff/customers/_customer_fields.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/staff/customers/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/staff/customers/show.html.erb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -36,7 +30,7 @@
           <entry key="css" value="51" />
           <entry key="erb" value="3897" />
           <entry key="js" value="143" />
-          <entry key="rb" value="22384" />
+          <entry key="rb" value="22780" />
           <entry key="scss" value="650" />
           <entry key="yml" value="1557" />
         </counts>
@@ -47,7 +41,7 @@
           <entry key="CoffeeScript" value="1541" />
           <entry key="JavaScript" value="143" />
           <entry key="RHTML" value="3897" />
-          <entry key="Ruby" value="22384" />
+          <entry key="Ruby" value="22780" />
           <entry key="SCSS" value="650" />
           <entry key="YAML" value="1557" />
         </counts>
@@ -111,11 +105,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/forms/staff/customer_form.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+            <state relative-caret-position="131">
+              <caret line="38" column="45" lean-forward="true" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -129,11 +123,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/staff/customers/_customer_fields.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+            <state relative-caret-position="285">
+              <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -243,10 +237,10 @@
         <option value="$PROJECT_DIR$/app/models/customer.rb" />
         <option value="$PROJECT_DIR$/app/presenters/customer_presenter.rb" />
         <option value="$PROJECT_DIR$/db/seeds/development/customers.rb" />
-        <option value="$PROJECT_DIR$/app/forms/staff/customer_form.rb" />
         <option value="$PROJECT_DIR$/app/presenters/form_presenter.rb" />
         <option value="$PROJECT_DIR$/app/views/staff/customers/_phone_fields.html.erb" />
         <option value="$PROJECT_DIR$/app/views/staff/customers/_customer_fields.html.erb" />
+        <option value="$PROJECT_DIR$/app/forms/staff/customer_form.rb" />
       </list>
     </option>
   </component>
@@ -776,7 +770,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53613000" />
+    <option name="totallyTimeSpent" value="54255000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="14" y="23" width="1346" height="676" extended-state="0" />
@@ -1132,13 +1126,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/forms/staff/customer_form.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/staff/customers/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1169,8 +1156,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/staff/customers/_customer_fields.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        <state relative-caret-position="285">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/forms/staff/customer_form.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="38" column="45" lean-forward="true" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="54" />
         </state>
       </provider>
     </entry>
