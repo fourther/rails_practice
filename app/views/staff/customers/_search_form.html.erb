@@ -1,7 +1,7 @@
 <%= form_for @search_form, as: 'search', url: :staff_customers,
              html: {method: :get, class: 'search'} do |f| %>
   <%= markup do |m|
-      p = FormPresenter.new(f, self)
+      p = AddressFormPresenter.new(f, self)
       m << p.text_field_block(:family_name_kana, 'フリガナ（姓） :')
       m << p.text_field_block(:given_name_kana, 'フリガナ（名） :')
       m.br
@@ -20,6 +20,7 @@
       Address::PREFECTURE_NAMES)
       m << p.text_field_block(:city, '市区町村:')
       m.br
+      m << p.postal_code_block(:postal_code, '郵便番号:', size: 7)
       m << p.text_field_block(:phone_number, '電話番号:')
       m << f.submit('検索')
 
