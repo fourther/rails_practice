@@ -1,10 +1,10 @@
 <%= form_for @search_form, as: 'search', url: :staff_customers,
              html: {method: :get, class: 'search'} do |f| %>
   <%= markup do |m|
-      p = Formpresenter.new(f, self)
+      p = FormPresenter.new(f, self)
       m << p.text_field_block(:family_name_kana, 'フリガナ（姓） :')
       m << p.text_field_block(:given_name_kana, 'フリガナ（名） :')
-      m.bre
+      m.br
       m << p.drop_down_list_block(:birth_year, '誕生年:',
       (1900..Time.current.year).to_a.reverse)
       m << p.drop_down_list_block(:birth_month, '誕生月:', 1..12)
