@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8983074c-3523-40e1-98d4-696ff69fd9c6" name="Default Changelist" comment="" />
+    <list default="true" id="8983074c-3523-40e1-98d4-696ff69fd9c6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app/models/customer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/customer.rb" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -28,7 +30,7 @@
           <entry key="css" value="51" />
           <entry key="erb" value="3130" />
           <entry key="js" value="143" />
-          <entry key="rb" value="21707" />
+          <entry key="rb" value="21931" />
           <entry key="scss" value="650" />
           <entry key="yml" value="1557" />
         </counts>
@@ -39,7 +41,7 @@
           <entry key="CoffeeScript" value="1541" />
           <entry key="JavaScript" value="143" />
           <entry key="RHTML" value="3130" />
-          <entry key="Ruby" value="21707" />
+          <entry key="Ruby" value="21931" />
           <entry key="SCSS" value="650" />
           <entry key="YAML" value="1557" />
         </counts>
@@ -85,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/customer.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="135">
+              <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -130,11 +132,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/concerns/string_normalizer.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+            <state relative-caret-position="210">
+              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -219,7 +221,6 @@
         <option value="$PROJECT_DIR$/app/controllers/staff/customers_controller.rb" />
         <option value="$PROJECT_DIR$/spec/support/features_spec_helper.rb" />
         <option value="$PROJECT_DIR$/spec/factories/addresses.rb" />
-        <option value="$PROJECT_DIR$/app/models/concerns/string_normalizer.rb" />
         <option value="$PROJECT_DIR$/app/models/address.rb" />
         <option value="$PROJECT_DIR$/app/models/home_address.rb" />
         <option value="$PROJECT_DIR$/app/models/work_address.rb" />
@@ -232,13 +233,14 @@
         <option value="$PROJECT_DIR$/app/models/concerns/password_holder.rb" />
         <option value="$PROJECT_DIR$/app/models/administrator.rb" />
         <option value="$PROJECT_DIR$/app/models/staff_member.rb" />
-        <option value="$PROJECT_DIR$/app/models/customer.rb" />
         <option value="$PROJECT_DIR$/app/views/staff/customers/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/staff/customer_form.js.coffee" />
         <option value="$PROJECT_DIR$/app/forms/staff/customer_form.rb" />
         <option value="$PROJECT_DIR$/spec/features/staff/customer_management_spec.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20180831011048_create_phones.rb" />
         <option value="$PROJECT_DIR$/app/models/phone.rb" />
+        <option value="$PROJECT_DIR$/app/models/concerns/string_normalizer.rb" />
+        <option value="$PROJECT_DIR$/app/models/customer.rb" />
       </list>
     </option>
   </component>
@@ -768,7 +770,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51551000" />
+    <option name="totallyTimeSpent" value="51886000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="14" y="23" width="1346" height="676" extended-state="0" />
@@ -1095,13 +1097,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/customer.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/staff/customers/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1153,8 +1148,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/concerns/string_normalizer.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+        <state relative-caret-position="210">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/customer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
         </state>
       </provider>
     </entry>
