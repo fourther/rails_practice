@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8983074c-3523-40e1-98d4-696ff69fd9c6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/staff/customer_form.js.coffee" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/staff/customer_form.js.coffee" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/forms/staff/customer_form.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/forms/staff/customer_form.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -30,7 +30,7 @@
           <entry key="css" value="51" />
           <entry key="erb" value="3130" />
           <entry key="js" value="143" />
-          <entry key="rb" value="20167" />
+          <entry key="rb" value="20327" />
           <entry key="scss" value="650" />
           <entry key="yml" value="1557" />
         </counts>
@@ -41,7 +41,7 @@
           <entry key="CoffeeScript" value="1541" />
           <entry key="JavaScript" value="143" />
           <entry key="RHTML" value="3130" />
-          <entry key="Ruby" value="20167" />
+          <entry key="Ruby" value="20327" />
           <entry key="SCSS" value="650" />
           <entry key="YAML" value="1557" />
         </counts>
@@ -114,11 +114,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/forms/staff/customer_form.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="40" lean-forward="true" selection-end-line="61" />
+            <state relative-caret-position="217">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
@@ -132,11 +132,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/staff/customer_form.js.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="240">
+              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -238,9 +238,9 @@
         <option value="$PROJECT_DIR$/app/models/administrator.rb" />
         <option value="$PROJECT_DIR$/app/models/staff_member.rb" />
         <option value="$PROJECT_DIR$/app/models/customer.rb" />
-        <option value="$PROJECT_DIR$/app/forms/staff/customer_form.rb" />
         <option value="$PROJECT_DIR$/app/views/staff/customers/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/staff/customer_form.js.coffee" />
+        <option value="$PROJECT_DIR$/app/forms/staff/customer_form.rb" />
       </list>
     </option>
   </component>
@@ -770,7 +770,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49604000" />
+    <option name="totallyTimeSpent" value="50098000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="14" y="23" width="1346" height="676" extended-state="0" />
@@ -1146,17 +1146,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/forms/staff/customer_form.rb">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/staff/customer_form.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="40" lean-forward="true" selection-end-line="61" />
+        <state relative-caret-position="240">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/staff/customer_form.js.coffee">
+    <entry file="file://$PROJECT_DIR$/app/forms/staff/customer_form.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="217">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>

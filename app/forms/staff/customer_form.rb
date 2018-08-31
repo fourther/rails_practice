@@ -15,29 +15,24 @@ class Staff::CustomerForm
 
     def assign_attributes(params = {})
         @params = params
+        self.inputs_home_address = params[:inputs_home_address] == '1'
+        self.inputs_work_address = params[:inputs_work_address] == '1'
 
         customer.assign_attributes(customer_params)
-        customer.home_address.assign_attributes(home_address_params)
-        customer.work_address.assign_attributes(work_address_params)
+        if inputs_home_address
+            customer.home_address.assign_attributes(home_address_params)
+        else
+            customer.home_address.mark_for_destruction
+        end
+        if inputs_work_address
+            customer.work_address.assign_attributes(work_address_params)
+        else
+            customer.work_address.mark_for_destruction
+        end
     end
 
-    # def valid?
-    #     [ customer, customer.home_address, customer.work_address ].map(&:valid?).all?
-    # end
-
-    # def save
-    #     customer.save
-    #     # if valid?
-    #     #     ActiveRecord::Base.transaction do
-    #     #         customer.save!
-    #     #         customer.home_address.save!
-    #     #         customer.work_address.save!
-    #     #     end
-    #     # end
-    # end
 
     private
-
     def customer_params
         @params.require(:customer).permit(
             :email, :password,
