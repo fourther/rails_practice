@@ -11,12 +11,11 @@ class Customer::SessionsController < Customer::Base
     end
 
     def create
-        @form = Customer::LoginFrom.new(params[:customer_login_form])
+        @form = Customer::LoginForm.new(params[:customer_login_form])
         if @form.email.present?
             customer = Customer.find_by(email_for_index: @form.email.downcase)
         end
-        if
-            Customer::Authenticator.new(customer).authenticate(@form.password)
+        if Customer::Authenticator.new(customer).authenticate(@form.password)
             session[:customer_id] = customer.id
             flash.notice = 'ログインしました'
             redirect_to :customer_root
