@@ -3,7 +3,7 @@ class Customer::SessionsController < Customer::Base
 
     def new
         if current_customer
-            redirect_to :custmer_root
+            redirect_to :customer_root
         else
             @form = Customer::LoginForm.new
             render action: 'new'
@@ -17,7 +17,7 @@ class Customer::SessionsController < Customer::Base
         end
         if Customer::Authenticator.new(customer).authenticate(@form.password)
             if @form.remember_me?
-                cookies.permanent.signed[:customer_id] = customer_id
+                cookies.permanent.signed[:customer_id] = customer.id
             else
                 cookies.delete(:customer_id)
                 session[:customer_id] = customer.id
