@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8983074c-3523-40e1-98d4-696ff69fd9c6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/customer/sessions_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/customer/sessions_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/phone.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/phone.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/controllers/customer/sessions_controller_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/controllers/customer/sessions_controller_spec.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -32,7 +30,7 @@
           <entry key="css" value="51" />
           <entry key="erb" value="5347" />
           <entry key="js" value="143" />
-          <entry key="rb" value="29734" />
+          <entry key="rb" value="29901" />
           <entry key="scss" value="1138" />
           <entry key="yml" value="1565" />
         </counts>
@@ -43,7 +41,7 @@
           <entry key="CoffeeScript" value="1647" />
           <entry key="JavaScript" value="143" />
           <entry key="RHTML" value="5347" />
-          <entry key="Ruby" value="29734" />
+          <entry key="Ruby" value="29901" />
           <entry key="SCSS" value="1138" />
           <entry key="YAML" value="1565" />
         </counts>
@@ -101,8 +99,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/controllers/customer/sessions_controller_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="67" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
+            <state relative-caret-position="420">
+              <caret line="28" column="77" selection-start-line="28" selection-start-column="77" selection-end-line="28" selection-end-column="77" />
             </state>
           </provider>
         </entry>
@@ -856,7 +854,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70319000" />
+    <option name="totallyTimeSpent" value="70651000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="14" y="23" width="1346" height="676" extended-state="0" />
@@ -1215,8 +1213,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/controllers/customer/sessions_controller_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="67" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
+        <state relative-caret-position="420">
+          <caret line="28" column="77" selection-start-line="28" selection-start-column="77" selection-end-line="28" selection-end-column="77" />
         </state>
       </provider>
     </entry>
