@@ -19,6 +19,15 @@ header {
     padding: $moderate;
     background-color: $dark_yellow;
     color: $very_light_gray;
+    a.logo-mark {
+      floag: none;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a {
+      float: right;
+      color: $very_light_gray;
+    }
     span.logo-mark {
         font-weight: bold;
     }
