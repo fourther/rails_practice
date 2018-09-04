@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8983074c-3523-40e1-98d4-696ff69fd9c6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/models/allowed_source.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/allowed_source.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/models/allowed_source_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/allowed_source_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/rails_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/rails_helper.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -31,7 +30,7 @@
           <entry key="css" value="51" />
           <entry key="erb" value="5347" />
           <entry key="js" value="143" />
-          <entry key="rb" value="32308" />
+          <entry key="rb" value="32392" />
           <entry key="scss" value="1138" />
           <entry key="yml" value="1565" />
         </counts>
@@ -42,7 +41,7 @@
           <entry key="CoffeeScript" value="1647" />
           <entry key="JavaScript" value="143" />
           <entry key="RHTML" value="5347" />
-          <entry key="Ruby" value="32308" />
+          <entry key="Ruby" value="32392" />
           <entry key="SCSS" value="1138" />
           <entry key="YAML" value="1565" />
         </counts>
@@ -56,7 +55,7 @@
           <entry key="erb" value="67" />
           <entry key="js" value="7" />
           <entry key="lock" value="1" />
-          <entry key="rb" value="249" />
+          <entry key="rb" value="251" />
           <entry key="scss" value="24" />
           <entry key="yml" value="11" />
         </counts>
@@ -69,7 +68,7 @@
           <entry key="JavaScript" value="7" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="RHTML" value="67" />
-          <entry key="Ruby" value="250" />
+          <entry key="Ruby" value="252" />
           <entry key="SCSS" value="24" />
           <entry key="Scratch" value="1" />
           <entry key="YAML" value="11" />
@@ -79,15 +78,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="40" column="52" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/migrate/20180904123238_create_allowed_sources.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -100,8 +90,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/allowed_source.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+            <state relative-caret-position="356">
+              <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/rails_helper.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="36" column="68" selection-start-line="36" selection-start-column="68" selection-end-line="36" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -114,8 +118,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/models/allowed_source_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="47" column="79" selection-start-line="47" selection-start-column="79" selection-end-line="47" selection-end-column="79" />
+            <state relative-caret-position="287">
+              <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -140,15 +144,6 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20180831122547_update_addresses1.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -171,7 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/models/staff_member.rb" />
         <option value="$PROJECT_DIR$/app/views/staff/customers/_form.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20180831011048_create_phones.rb" />
         <option value="$PROJECT_DIR$/app/models/concerns/string_normalizer.rb" />
@@ -220,8 +214,9 @@
         <option value="$PROJECT_DIR$/app/controllers/concerns/error_handlers.rb" />
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20180904123238_create_allowed_sources.rb" />
-        <option value="$PROJECT_DIR$/app/models/allowed_source.rb" />
         <option value="$PROJECT_DIR$/spec/models/allowed_source_spec.rb" />
+        <option value="$PROJECT_DIR$/app/models/allowed_source.rb" />
+        <option value="$PROJECT_DIR$/spec/rails_helper.rb" />
       </list>
     </option>
   </component>
@@ -845,7 +840,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73645000" />
+    <option name="totallyTimeSpent" value="73904000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="14" y="23" width="1346" height="676" extended-state="0" />
@@ -902,12 +897,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db/migrate/20180827005315_create_customers.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20180827005349_create_addresses.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20180831011048_create_phones.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1167,9 +1156,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/staff_member_spec.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/models/administrator_spec.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1191,15 +1177,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/allowed_source.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        <state relative-caret-position="356">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/rails_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="36" column="68" selection-start-line="36" selection-start-column="68" selection-end-line="36" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/staff_member_spec.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/spec/models/allowed_source_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="47" column="79" selection-start-line="47" selection-start-column="79" selection-end-line="47" selection-end-column="79" />
+        <state relative-caret-position="287">
+          <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
         </state>
       </provider>
     </entry>
