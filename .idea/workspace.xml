@@ -31,7 +31,7 @@
           <entry key="css" value="51" />
           <entry key="erb" value="5347" />
           <entry key="js" value="143" />
-          <entry key="rb" value="31354" />
+          <entry key="rb" value="32308" />
           <entry key="scss" value="1138" />
           <entry key="yml" value="1565" />
         </counts>
@@ -42,7 +42,7 @@
           <entry key="CoffeeScript" value="1647" />
           <entry key="JavaScript" value="143" />
           <entry key="RHTML" value="5347" />
-          <entry key="Ruby" value="31354" />
+          <entry key="Ruby" value="32308" />
           <entry key="SCSS" value="1138" />
           <entry key="YAML" value="1565" />
         </counts>
@@ -100,8 +100,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/allowed_source.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+            <state relative-caret-position="390">
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -114,8 +114,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/models/allowed_source_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+            <state relative-caret-position="495">
+              <caret line="47" column="79" selection-start-line="47" selection-start-column="79" selection-end-line="47" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -845,7 +845,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72577000" />
+    <option name="totallyTimeSpent" value="73645000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="14" y="23" width="1346" height="676" extended-state="0" />
@@ -1167,20 +1167,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20180904123238_create_allowed_sources.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="65" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/allowed_source.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/models/staff_member_spec.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1196,10 +1182,24 @@
     <entry file="file://$PROJECT_DIR$/spec/routing/hostname_constraints_spec.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20180904123238_create_allowed_sources.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="65" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/allowed_source.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spec/models/allowed_source_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+        <state relative-caret-position="495">
+          <caret line="47" column="79" selection-start-line="47" selection-start-column="79" selection-end-line="47" selection-end-column="79" />
         </state>
       </provider>
     </entry>

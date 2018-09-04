@@ -23,9 +23,11 @@ class AllowedSource < ActiveRecord::Base
             return true if !Rails.application.config.baukis[:restrict_ip_addresses]
 
             octets = ip_address.split('.')
-            condition = %Q{}
-
-
+            condition = %Q{
+            octet1 = ? AND octet2 = ? AND octet3 = ? AND ((octet4 = ? AND wildcard = ?) OR wildcard = ?)
+            }.gsub(/\s+/, ' ').strip
+            opts = [ condition, *octets, false, true ]
+            where(namespace: namespace).where(opts).exists?
         end
     end
 end
