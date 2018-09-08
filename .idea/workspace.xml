@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8983074c-3523-40e1-98d4-696ff69fd9c6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/controllers/admin/allowed_sources_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/admin/allowed_sources_controller.rb" afterDir="false" />
-    </list>
+    <list default="true" id="8983074c-3523-40e1-98d4-696ff69fd9c6" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -88,15 +86,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/services/admin/allowed_sources_delete.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="34" selection-start-column="34" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/admin/allowed_sources/_new_allowed_source.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
@@ -126,8 +115,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/admin/allowed_sources_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+            <state relative-caret-position="300">
+              <caret line="23" column="11" selection-start-line="21" selection-end-line="23" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -874,7 +863,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80176000" />
+    <option name="totallyTimeSpent" value="80208000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="14" y="23" width="1346" height="676" extended-state="0" />
@@ -1227,8 +1216,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/admin/allowed_sources_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        <state relative-caret-position="300">
+          <caret line="23" column="11" selection-start-line="21" selection-end-line="23" selection-end-column="11" />
         </state>
       </provider>
     </entry>
