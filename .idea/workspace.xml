@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8983074c-3523-40e1-98d4-696ff69fd9c6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/models/allowed_source.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/allowed_source.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/allowed_sources/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/allowed_sources/index.html.erb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -28,7 +28,7 @@
         <counts>
           <entry key="coffee" value="1647" />
           <entry key="css" value="51" />
-          <entry key="erb" value="5990" />
+          <entry key="erb" value="6390" />
           <entry key="js" value="143" />
           <entry key="rb" value="34482" />
           <entry key="scss" value="1147" />
@@ -40,7 +40,7 @@
           <entry key="CSS" value="51" />
           <entry key="CoffeeScript" value="1647" />
           <entry key="JavaScript" value="143" />
-          <entry key="RHTML" value="5990" />
+          <entry key="RHTML" value="6390" />
           <entry key="Ruby" value="34482" />
           <entry key="SCSS" value="1147" />
           <entry key="YAML" value="1565" />
@@ -114,11 +114,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/admin/allowed_sources/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="450">
+              <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -132,7 +132,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/allowed_source.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
@@ -238,9 +238,9 @@
         <option value="$PROJECT_DIR$/app/presenters/allowed_source_presenter.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/admin/table.css.scss" />
         <option value="$PROJECT_DIR$/app/views/admin/allowed_sources/_new_allowed_source.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/admin/allowed_sources/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/admin/allowed_sources_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/allowed_source.rb" />
+        <option value="$PROJECT_DIR$/app/views/admin/allowed_sources/index.html.erb" />
       </list>
     </option>
   </component>
@@ -872,7 +872,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77748000" />
+    <option name="totallyTimeSpent" value="78298000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="14" y="23" width="1346" height="676" extended-state="0" />
@@ -1210,17 +1210,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/admin/allowed_sources/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/admin/allowed_sources_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/allowed_source.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -1231,10 +1231,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/allowed_source.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/admin/allowed_sources/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+        <state relative-caret-position="450">
+          <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
         </state>
       </provider>
     </entry>
