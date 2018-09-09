@@ -26,11 +26,19 @@ RSpec.configure do |config|
   # instead of true.
   config.use_transactional_fixtures = true
   # config.order = "random"
+  #
+  config.filter_run_excluding :performance => true
 
   config.include FactoryGirl::Syntax::Methods
 
   config.before(:suite) do
     FactoryGirl.reload
+  end
+
+  config.before(performance: true) do
+      ActionController::Base.perform_caching = true
+      ActiveSupport::Dependencies.mechanism = :require
+      Rails.logger.level = ActiveSupport::Logger::INFO
   end
 
   config.after do
