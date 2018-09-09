@@ -4,7 +4,7 @@ class Program < ActiveRecord::Base
     belongs_to :registrant, class_name: 'StaffMember'
 
     scope :listing, -> {
-        joins(:entries)
+        joins('LEFT JOIN entries ON programs.id = entries.program_id')
         .select('programs.*, COUNT(entries.id) AS number_of_applicants')
         .group('programs.id')
         .order(application_start_time: :desc)
