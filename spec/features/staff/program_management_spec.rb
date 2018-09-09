@@ -19,7 +19,7 @@ feature 'プログラム管理機能', :performance do
     end
 
     scenario 'プログラム一覧' do |example|
-        visit staff_program_path
+        visit staff_programs_path
         expect(page).to have_css('h1', text: 'プログラム管理')
 
         elapsed = Benchmark.realtime do
