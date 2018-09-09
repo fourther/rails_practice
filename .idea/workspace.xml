@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8983074c-3523-40e1-98d4-696ff69fd9c6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/staff/tables.css.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/staff/tables.css.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/staff/programs_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/staff/programs_controller.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
@@ -30,9 +28,9 @@
         <counts>
           <entry key="coffee" value="1647" />
           <entry key="css" value="51" />
-          <entry key="erb" value="6428" />
+          <entry key="erb" value="6431" />
           <entry key="js" value="143" />
-          <entry key="rb" value="37731" />
+          <entry key="rb" value="37784" />
           <entry key="scss" value="1185" />
           <entry key="yml" value="1565" />
         </counts>
@@ -42,8 +40,8 @@
           <entry key="CSS" value="51" />
           <entry key="CoffeeScript" value="1647" />
           <entry key="JavaScript" value="143" />
-          <entry key="RHTML" value="6428" />
-          <entry key="Ruby" value="37731" />
+          <entry key="RHTML" value="6431" />
+          <entry key="Ruby" value="37784" />
           <entry key="SCSS" value="1185" />
           <entry key="YAML" value="1565" />
         </counts>
@@ -54,10 +52,10 @@
           <entry key="Gemfile" value="2" />
           <entry key="coffee" value="7" />
           <entry key="css" value="3" />
-          <entry key="erb" value="75" />
+          <entry key="erb" value="76" />
           <entry key="js" value="7" />
           <entry key="lock" value="1" />
-          <entry key="rb" value="288" />
+          <entry key="rb" value="292" />
           <entry key="scss" value="26" />
           <entry key="yml" value="11" />
         </counts>
@@ -69,8 +67,8 @@
           <entry key="Dockerfile" value="1" />
           <entry key="JavaScript" value="7" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="RHTML" value="75" />
-          <entry key="Ruby" value="289" />
+          <entry key="RHTML" value="76" />
+          <entry key="Ruby" value="293" />
           <entry key="SCSS" value="26" />
           <entry key="Scratch" value="1" />
           <entry key="YAML" value="11" />
@@ -80,27 +78,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/presenters/form_presenter.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-258" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/presenters/customer_form_presenter.rb">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/presenters/allowed_source_presenter.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/presenters/address_presenter.rb">
           <provider selected="true" editor-type-id="text-editor" />
@@ -129,23 +106,56 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/staff/programs_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="105">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/presenters/address_form_presenter.rb">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/app/presenters/program_presenter.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="73" selection-start-line="29" selection-start-column="73" selection-end-line="29" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/staff/programs/show.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/presenters/model_presenter.rb">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/db/schema.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1635" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="84" selection-start-column="84" selection-end-column="84" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/seeds/development/programs.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -170,7 +180,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/db/migrate/20180831120433_alter_addresses2.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20180831122155_alter_phone.rb" />
         <option value="$PROJECT_DIR$/app/models/phone.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20180831122547_update_addresses1.rb" />
@@ -221,6 +230,7 @@
         <option value="$PROJECT_DIR$/app/presenters/program_presenter.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/staff/tables.css.scss" />
         <option value="$PROJECT_DIR$/app/controllers/staff/programs_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/staff/programs/show.html.erb" />
       </list>
     </option>
   </component>
@@ -737,11 +747,11 @@
       <recent name="$PROJECT_DIR$/app/presenters" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/assets/stylesheets/staff" />
       <recent name="$PROJECT_DIR$/app/views/staff/programs" />
       <recent name="$PROJECT_DIR$/app/views/staff/customers" />
       <recent name="$PROJECT_DIR$/app/assets/stylesheets/admin" />
       <recent name="$PROJECT_DIR$/app/controllers/admin" />
-      <recent name="$PROJECT_DIR$/app/views/admin/staff_events" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -875,7 +885,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83602000" />
+    <option name="totallyTimeSpent" value="84255000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="14" y="23" width="1346" height="676" extended-state="0" />
@@ -932,20 +942,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/concerns/error_handlers.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20180831122547_update_addresses1.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1130,20 +1126,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="84" selection-start-column="84" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/seeds/development/programs.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/seeds/development/entries.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1169,13 +1151,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/presenters/program_presenter.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="73" selection-start-line="29" selection-start-column="73" selection-end-line="29" selection-end-column="73" />
         </state>
       </provider>
     </entry>
@@ -1220,10 +1195,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1635" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="84" selection-start-column="84" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds/development/programs.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/staff/programs_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="105">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presenters/program_presenter.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="73" selection-start-line="29" selection-start-column="73" selection-end-line="29" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/staff/programs/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
