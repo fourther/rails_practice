@@ -26,4 +26,7 @@ class StaffMember < ActiveRecord::Base
         (end_date.nil? || end_date > Date.today)
     end
 
+    def deletable?
+        programs.empty?
+    end
 end

@@ -5,7 +5,7 @@ class Admin::StaffMembersController < Admin::Base
 
     def show
         staff_member = StaffMember.find(params[:id])
-        redirect_to [ :edit, :admin, staff_member]
+        redirect_to [:edit, :admin, staff_member]
     end
 
     def new
@@ -39,12 +39,17 @@ class Admin::StaffMembersController < Admin::Base
 
     def destroy
         staff_member = StaffMember.find(params[:id])
-        staff_member.destroy!
-        flash.notice = '職員アカウントを削除しました'
+        if staff_member.deletable?
+            staff_member.destroy!
+            flash.notice = '職員アカウントを削除しました'
+        else
+            flash.alert = 'この職員アカウントは削除できません'
+        end
         redirect_to :admin_staff_members
     end
 
     private
+
     def staff_member_params
         params.require(:staff_member).permit(
             :email, :password, :family_name, :given_name,
