@@ -23,7 +23,7 @@ class ProgramFormPresenter < FormPresenter
             m << form_builder.select("#{name}_hour", ('00'..'23').to_a)
             m << ':'
             m << form_builder.select("#{name}_minute", ('00'..'59').to_a)
-            m.span "(#{instruction}", class: 'instruction' if instruction
+            m.span "(#{instruction})", class: 'instruction' if instruction
         end
     end
 end
