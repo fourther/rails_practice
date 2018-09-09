@@ -4,6 +4,7 @@ class StaffMember < ActiveRecord::Base
     include PasswordHolder
 
     has_many :events, class_name: 'StaffEvent', dependent: :destroy
+    has_many :programs, foreigh_key: 'registrant_id', dependent: :restrict_with_exception
 
 
 
