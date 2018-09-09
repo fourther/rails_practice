@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8983074c-3523-40e1-98d4-696ff69fd9c6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/spec/features/staff/program_management_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/features/staff/program_management_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/staff/form.css.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/staff/form.css.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/staff/programs_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/staff/programs_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/program.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/program.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/presenters/form_presenter.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/presenters/form_presenter.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -30,8 +33,8 @@
           <entry key="css" value="51" />
           <entry key="erb" value="6431" />
           <entry key="js" value="143" />
-          <entry key="rb" value="39594" />
-          <entry key="scss" value="1185" />
+          <entry key="rb" value="41926" />
+          <entry key="scss" value="1245" />
           <entry key="yml" value="1565" />
         </counts>
       </usages-collector>
@@ -41,8 +44,8 @@
           <entry key="CoffeeScript" value="1647" />
           <entry key="JavaScript" value="143" />
           <entry key="RHTML" value="6431" />
-          <entry key="Ruby" value="39594" />
-          <entry key="SCSS" value="1185" />
+          <entry key="Ruby" value="41926" />
+          <entry key="SCSS" value="1245" />
           <entry key="YAML" value="1565" />
         </counts>
       </usages-collector>
@@ -52,11 +55,11 @@
           <entry key="Gemfile" value="2" />
           <entry key="coffee" value="7" />
           <entry key="css" value="3" />
-          <entry key="erb" value="76" />
+          <entry key="erb" value="79" />
           <entry key="js" value="7" />
           <entry key="lock" value="1" />
-          <entry key="rb" value="297" />
-          <entry key="scss" value="26" />
+          <entry key="rb" value="300" />
+          <entry key="scss" value="27" />
           <entry key="yml" value="11" />
         </counts>
       </usages-collector>
@@ -67,9 +70,9 @@
           <entry key="Dockerfile" value="1" />
           <entry key="JavaScript" value="7" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="RHTML" value="76" />
-          <entry key="Ruby" value="298" />
-          <entry key="SCSS" value="26" />
+          <entry key="RHTML" value="79" />
+          <entry key="Ruby" value="301" />
+          <entry key="SCSS" value="27" />
           <entry key="Scratch" value="1" />
           <entry key="YAML" value="11" />
         </counts>
@@ -81,8 +84,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/staff/programs_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+            <state relative-caret-position="210">
+              <caret line="14" column="69" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/presenters/form_presenter.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -90,44 +102,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/program.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+            <state relative-caret-position="195">
+              <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/rails_helper.rb">
+        <entry file="file://$PROJECT_DIR$/app/forms/staff/program_form.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/support/performance_spec_helper.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/factories/programs.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spec/features/staff/program_management_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+            <state relative-caret-position="345">
+              <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -142,28 +127,42 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/staff/programs/show.html.erb">
+        <entry file="file://$PROJECT_DIR$/app/presenters/program_form_presenter.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            <state relative-caret-position="165">
+              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+        <entry file="file://$PROJECT_DIR$/app/views/staff/programs/new.html.erb">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/staff/programs/edit.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="84" selection-start-column="84" selection-end-column="84" />
+            <state relative-caret-position="195">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/seeds/development/programs.rb">
+        <entry file="file://$PROJECT_DIR$/app/views/staff/programs/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="255">
+              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/staff/form.css.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="27" column="66" selection-start-line="27" selection-start-column="66" selection-end-line="27" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -190,10 +189,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/views/staff/customers/_search_form.html.erb" />
-        <option value="$PROJECT_DIR$/docker-compose.yml" />
-        <option value="$PROJECT_DIR$/app/forms/staff/customer_search_form.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/customer/top_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/customer/shared/_header.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/customer/_colors.css.scss" />
         <option value="$PROJECT_DIR$/app/services/customer/authenticator.rb" />
@@ -237,10 +232,14 @@
         <option value="$PROJECT_DIR$/spec/rails_helper.rb" />
         <option value="$PROJECT_DIR$/spec/support/performance_spec_helper.rb" />
         <option value="$PROJECT_DIR$/spec/factories/programs.rb" />
-        <option value="$PROJECT_DIR$/app/models/program.rb" />
         <option value="$PROJECT_DIR$/app/presenters/program_presenter.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/staff/programs_controller.rb" />
         <option value="$PROJECT_DIR$/spec/features/staff/program_management_spec.rb" />
+        <option value="$PROJECT_DIR$/app/models/program.rb" />
+        <option value="$PROJECT_DIR$/app/forms/staff/program_form.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/staff/programs_controller.rb" />
+        <option value="$PROJECT_DIR$/app/presenters/program_form_presenter.rb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/staff/form.css.scss" />
+        <option value="$PROJECT_DIR$/app/presenters/form_presenter.rb" />
       </list>
     </option>
   </component>
@@ -757,8 +756,8 @@
       <recent name="$PROJECT_DIR$/app/presenters" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/assets/stylesheets/staff" />
       <recent name="$PROJECT_DIR$/app/views/staff/programs" />
+      <recent name="$PROJECT_DIR$/app/assets/stylesheets/staff" />
       <recent name="$PROJECT_DIR$/app/views/staff/customers" />
       <recent name="$PROJECT_DIR$/app/assets/stylesheets/admin" />
       <recent name="$PROJECT_DIR$/app/controllers/admin" />
@@ -895,7 +894,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86231000" />
+    <option name="totallyTimeSpent" value="88165000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="14" y="23" width="1346" height="676" extended-state="0" />
@@ -952,36 +951,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spec/routing/hostname_constraints_spec.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20180904123238_create_allowed_sources.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="65" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/staff_member_spec.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/allowed_source_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/staff/base.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="80" selection-start-line="17" selection-start-column="80" selection-end-line="17" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="423">
@@ -1137,11 +1106,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/presenters/form_presenter.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-258" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/presenters/model_presenter.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1225,12 +1189,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/program.rb">
+    <entry file="file://$PROJECT_DIR$/spec/features/staff/program_management_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        <state relative-caret-position="345">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/staff/programs_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="69" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/staff/programs/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/staff/programs/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/staff/form.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="27" column="66" selection-start-line="27" selection-start-column="66" selection-end-line="27" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presenters/program_form_presenter.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/staff/programs/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/presenters/program_presenter.rb">
       <provider selected="true" editor-type-id="text-editor">
@@ -1239,17 +1241,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/staff/programs_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/forms/staff/program_form.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        <state relative-caret-position="345">
+          <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/features/staff/program_management_spec.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/program.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        <state relative-caret-position="195">
+          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presenters/form_presenter.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
         </state>
       </provider>
     </entry>
