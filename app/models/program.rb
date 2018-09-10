@@ -20,7 +20,7 @@ class Program < ActiveRecord::Base
     }
     validates :application_end_time, date: {
         after: :application_start_time,
-        before: -> (obj) { obj.application_start_time.advence(days: 90)},
+        before: -> (obj) { obj.application_start_time.advance(days: 90)},
         allow_blank: true,
         if: -> (obj) { obj.application_start_time }
     }
@@ -28,7 +28,7 @@ class Program < ActiveRecord::Base
         only_integer: true, greater_than_or_equal_to: 1,
         less_than_or_equal_to: 1000, allow_blank: true
     }
-    validates do
+    validate do
         if min_number_of_participants && max_number_of_participants &&
             min_number_of_participants > max_number_of_participants
             errors.add(:max_number_of_participants, :less_than_min_number)
