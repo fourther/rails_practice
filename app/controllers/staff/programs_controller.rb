@@ -40,4 +40,11 @@ class Staff::ProgramsController < Staff::Base
         end
 
     end
+
+    def destroy
+        program = Program.find(params[:id])
+        program.destroy!
+        flash.notice = 'プログラムを削除しました'
+        redirect_to :staff_programs
+    end
 end
