@@ -18,7 +18,7 @@ class Staff::ProgramsController < Staff::Base
     def create
         @program_form = Staff::ProgramForm.new
         @program_form.assign_attributes(params[:form])
-        @progmra_form.program.registrant = current_staff_member
+        @program_form.program.registrant = current_staff_member
         if @program_form.save
             flash.notice = 'プログラムを登録しました'
             redirect_to action: 'index'
