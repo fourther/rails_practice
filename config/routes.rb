@@ -24,7 +24,7 @@ Rails.application.routes.draw do
                 resources :staff_events, only: [:index]
             end
             resources :staff_events, only: [:index]
-            resources :allowed_sources, only: [ :index, :create] do
+            resources :allowed_sources, only: [:index, :create] do
                 delete :delete, on: :collection
             end
         end
@@ -34,8 +34,12 @@ Rails.application.routes.draw do
         namespace :customer, path: config[:customer][:path] do
             root 'top#index'
             get 'login' => 'sessions#new', as: :login
-            resource :session, only: [ :create, :destroy]
-            resources :programs, only: [ :index, :show ]
+            resource :session, only: [:create, :destroy]
+            resources :programs, only: [:index, :show] do
+                resources :entries, only: [:create] do
+                    patch :cancel, on: :member
+                end
+            end
         end
     end
 
