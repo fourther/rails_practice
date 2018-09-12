@@ -17,8 +17,8 @@ class Customer::MessagesController < Customer::Base
         @message = CustomerMessage.new(customer_message_params)
         if params[:commit]
             @message.customer = current_customer
-            @message.discarded = false
-            @message.deleted = false
+            # @message.discarded = false
+            # @message.deleted = false
             if @message.save
                 flash.notice = '問い合わせを送信しました'
                 redirect_to :customer_root
