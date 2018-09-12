@@ -5,7 +5,7 @@
   <%= form_for @customer_form, as: 'form', url: :customer_account do |f| %>
 
     <p>以下の内容でアカウントを更新します。よろしいですか？</p>
-    <%= render 'form', f: f %>
+    <%= render 'confirming_form', f: f %>
     <div class="buttons">
       <%= f.submit '更新' %>
       <%= f.submit '訂正', name: 'correct' %>
