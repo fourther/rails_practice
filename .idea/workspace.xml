@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8983074c-3523-40e1-98d4-696ff69fd9c6" name="Default Changelist" comment="" />
+    <list default="true" id="8983074c-3523-40e1-98d4-696ff69fd9c6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/customer/accounts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/customer/accounts_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/forms/customer/account_form.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/forms/customer/account_form.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/customer/accounts/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/customer/accounts/edit.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -26,10 +32,10 @@
         <counts>
           <entry key="coffee" value="2343" />
           <entry key="css" value="51" />
-          <entry key="erb" value="6982" />
+          <entry key="erb" value="7311" />
           <entry key="js" value="143" />
-          <entry key="rb" value="49289" />
-          <entry key="scss" value="1424" />
+          <entry key="rb" value="49534" />
+          <entry key="scss" value="1433" />
           <entry key="yml" value="1572" />
         </counts>
       </usages-collector>
@@ -38,9 +44,9 @@
           <entry key="CSS" value="51" />
           <entry key="CoffeeScript" value="2343" />
           <entry key="JavaScript" value="143" />
-          <entry key="RHTML" value="6982" />
-          <entry key="Ruby" value="49289" />
-          <entry key="SCSS" value="1424" />
+          <entry key="RHTML" value="7311" />
+          <entry key="Ruby" value="49534" />
+          <entry key="SCSS" value="1433" />
           <entry key="YAML" value="1572" />
         </counts>
       </usages-collector>
@@ -50,11 +56,11 @@
           <entry key="Gemfile" value="2" />
           <entry key="coffee" value="11" />
           <entry key="css" value="3" />
-          <entry key="erb" value="95" />
+          <entry key="erb" value="97" />
           <entry key="js" value="7" />
           <entry key="lock" value="1" />
-          <entry key="rb" value="326" />
-          <entry key="scss" value="35" />
+          <entry key="rb" value="327" />
+          <entry key="scss" value="36" />
           <entry key="yml" value="13" />
         </counts>
       </usages-collector>
@@ -65,9 +71,9 @@
           <entry key="Dockerfile" value="1" />
           <entry key="JavaScript" value="7" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="RHTML" value="95" />
-          <entry key="Ruby" value="327" />
-          <entry key="SCSS" value="35" />
+          <entry key="RHTML" value="97" />
+          <entry key="Ruby" value="328" />
+          <entry key="SCSS" value="36" />
           <entry key="Scratch" value="1" />
           <entry key="YAML" value="13" />
         </counts>
@@ -77,42 +83,15 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="37" column="64" selection-start-line="37" selection-start-column="64" selection-end-line="37" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/customer/shared/_header.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/customer/layout.css.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/customer/accounts_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+            <state relative-caret-position="225">
+              <caret line="15" column="41" selection-end-line="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/customer/account_form.js.coffee">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
@@ -122,10 +101,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/customer/programs/show.html.erb">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/customer/form.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+            <state relative-caret-position="-334">
+              <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -142,8 +130,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/forms/customer/account_form.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+            <state relative-caret-position="60">
+              <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -151,10 +139,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/customer/accounts/edit.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+            <state relative-caret-position="120">
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/customer/accounts/confirm.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/staff/customers/edit.html.erb">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -188,8 +190,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/views/admin/allowed_sources/_new_allowed_source.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/admin/allowed_sources/index.html.erb" />
         <option value="$PROJECT_DIR$/app/models/allowed_source.rb" />
         <option value="$PROJECT_DIR$/app/services/admin/allowed_sources_delete.rb" />
         <option value="$PROJECT_DIR$/app/controllers/admin/allowed_sources_controller.rb" />
@@ -230,15 +230,17 @@
         <option value="$PROJECT_DIR$/app/services/customer/entry_acceptor.rb" />
         <option value="$PROJECT_DIR$/app/controllers/customer/entries_controller.rb" />
         <option value="$PROJECT_DIR$/app/presenters/program_presenter.rb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/customer/shared/_header.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/customer/layout.css.scss" />
         <option value="$PROJECT_DIR$/app/views/customer/accounts/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/forms/customer/account_form.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/customer/accounts_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/customer/accounts/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/views/customer/accounts/_customer_fields.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/customer/account_form.js.coffee" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/customer/form.css.scss" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/views/customer/accounts/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/forms/customer/account_form.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/customer/accounts_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/customer/accounts/confirm.html.erb" />
       </list>
     </option>
   </component>
@@ -736,7 +738,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="_customer&#9;FILE&#9;file:///Users/aki/rails_practice/app/views/staff/customers/_customer_fields.html.erb&#10;account/ed&#9;FILE&#9;file:///Users/aki/rails_practice/app/views/customer/accounts/edit.html.erb&#10;accou&#9;FILE&#9;file:///Users/aki/rails_practice/app/controllers/customer/accounts_controller.rb&#10;account_f&#9;FILE&#9;file:///Users/aki/rails_practice/app/forms/customer/account_form.rb&#10;show&#9;FILE&#9;file:///Users/aki/rails_practice/app/views/customer/accounts/show.html.erb&#10;sho&#9;FILE&#9;file:///Users/aki/rails_practice/app/views/customer/programs/show.html.erb&#10;layout&#9;FILE&#9;file:///Users/aki/rails_practice/app/assets/stylesheets/customer/layout.css.scss&#10;_header&#9;FILE&#9;file:///Users/aki/rails_practice/app/views/customer/shared/_header.html.erb&#10;routes&#9;FILE&#9;file:///Users/aki/rails_practice/config/routes.rb&#10;pre&#9;FILE&#9;file:///Users/aki/rails_practice/app/presenters/program_presenter.rb&#10;entries&#9;FILE&#9;file:///Users/aki/rails_practice/app/controllers/customer/entries_controller.rb&#10;pr&#9;FILE&#9;file:///Users/aki/rails_practice/app/presenters/program_presenter.rb&#10;acc&#9;FILE&#9;file:///Users/aki/rails_practice/app/services/customer/entry_acceptor.rb&#10;entri&#9;FILE&#9;file:///Users/aki/rails_practice/app/controllers/customer/entries_controller.rb&#10;programpre&#9;FILE&#9;file:///Users/aki/rails_practice/app/presenters/program_presenter.rb&#10;program&#9;FILE&#9;file:///Users/aki/rails_practice/app/models/program.rb&#10;programs_con&#9;FILE&#9;file:///Users/aki/rails_practice/app/controllers/customer/programs_controller.rb&#10;prog&#9;FILE&#9;file:///Users/aki/rails_practice/app/controllers/staff/programs_controller.rb&#10;top_con&#9;FILE&#9;file:///Users/aki/rails_practice/app/controllers/customer/top_controller.rb&#10;top&#9;null&#9;null&#10;route&#9;FILE&#9;file:///Users/aki/rails_practice/config/routes.rb&#10;cof&#9;FILE&#9;file:///Users/aki/rails_practice/app/assets/javascripts/staff/entries_form.js.coffee&#10;pro&#9;FILE&#9;file:///Users/aki/rails_practice/app/controllers/staff/programs_controller.rb&#10;form.cs&#9;FILE&#9;file:///Users/aki/rails_practice/app/assets/stylesheets/staff/form.css.scss&#10;progra&#9;FILE&#9;file:///Users/aki/rails_practice/app/models/program.rb&#10;presen&#9;FILE&#9;file:///Users/aki/rails_practice/app/presenters/program_presenter.rb&#10;rails&#9;FILE&#9;file:///Users/aki/rails_practice/spec/rails_helper.rb&#10;con&#9;FILE&#9;file:///Users/aki/rails_practice/app/controllers/staff/programs_controller.rb&#10;dash&#9;FILE&#9;file:///Users/aki/rails_practice/app/views/staff/top/dashboard.html.erb&#10;rou&#9;FILE&#9;file:///Users/aki/rails_practice/config/routes.rb&#10;staff&#9;FILE&#9;file:///Users/aki/rails_practice/app/models/staff_member.rb&#10;members_&#9;FILE&#9;file:///Users/aki/rails_practice/app/controllers/admin/staff_members_controller.rb&#10;staff_me&#9;FILE&#9;file:///Users/aki/rails_practice/app/models/staff_member.rb&#10;customer&#9;null&#9;null&#10;custo&#9;FILE&#9;file:///Users/aki/rails_practice/spec/factories/customers.rb&#10;entry&#9;null&#9;null&#10;spec&#9;FILE&#9;file:///Users/aki/rails_practice/spec/controllers/staff/top_controller_spec.rb&#10;base&#9;FILE&#9;file:///Users/aki/rails_practice/app/controllers/admin/base.rb&#10;a&#9;FILE&#9;file:///Users/aki/rails_practice/app/models/allowed_source.rb&#10;allowe&#9;FILE&#9;file:///Users/aki/rails_practice/app/models/allowed_source.rb&#10;in&#9;FILE&#9;file:///Users/aki/rails_practice/app/views/admin/allowed_sources/index.html.erb&#10;prese&#9;FILE&#9;file:///Users/aki/rails_practice/app/presenters/allowed_source_presenter.rb&#10;deve&#9;FILE&#9;file:///Users/aki/rails_practice/config/environments/development.rb&#10;top_controller_&#9;FILE&#9;file:///Users/aki/rails_practice/spec/controllers/staff/top_controller_spec.rb&#10;allow&#9;FILE&#9;file:///Users/aki/rails_practice/app/models/allowed_source.rb&#10;allowr&#9;FILE&#9;file:///Users/aki/rails_practice/app/models/allowed_source.rb&#10;appli&#9;null&#9;null&#10;session&#9;FILE&#9;file:///Users/aki/rails_practice/app/controllers/customer/sessions_controller.rb&#10;new.html&#9;FILE&#9;file:///Users/aki/rails_practice/app/views/customer/sessions/new.html.erb&#10;login_fo&#9;FILE&#9;file:///Users/aki/rails_practice/app/forms/customer/login_form.rb" />
+    <property name="SearchEverywhereHistoryKey" value="accou&#9;FILE&#9;file:///Users/aki/rails_practice/app/controllers/customer/accounts_controller.rb&#10;acco&#9;FILE&#9;file:///Users/aki/rails_practice/app/controllers/customer/accounts_controller.rb&#10;accounts/ed&#9;FILE&#9;file:///Users/aki/rails_practice/app/views/customer/accounts/edit.html.erb&#10;rou&#9;FILE&#9;file:///Users/aki/rails_practice/config/routes.rb&#10;_customer&#9;FILE&#9;file:///Users/aki/rails_practice/app/views/staff/customers/_customer_fields.html.erb&#10;account/ed&#9;FILE&#9;file:///Users/aki/rails_practice/app/views/customer/accounts/edit.html.erb&#10;account_f&#9;FILE&#9;file:///Users/aki/rails_practice/app/forms/customer/account_form.rb&#10;show&#9;FILE&#9;file:///Users/aki/rails_practice/app/views/customer/accounts/show.html.erb&#10;sho&#9;FILE&#9;file:///Users/aki/rails_practice/app/views/customer/programs/show.html.erb&#10;layout&#9;FILE&#9;file:///Users/aki/rails_practice/app/assets/stylesheets/customer/layout.css.scss&#10;_header&#9;FILE&#9;file:///Users/aki/rails_practice/app/views/customer/shared/_header.html.erb&#10;routes&#9;FILE&#9;file:///Users/aki/rails_practice/config/routes.rb&#10;pre&#9;FILE&#9;file:///Users/aki/rails_practice/app/presenters/program_presenter.rb&#10;entries&#9;FILE&#9;file:///Users/aki/rails_practice/app/controllers/customer/entries_controller.rb&#10;pr&#9;FILE&#9;file:///Users/aki/rails_practice/app/presenters/program_presenter.rb&#10;acc&#9;FILE&#9;file:///Users/aki/rails_practice/app/services/customer/entry_acceptor.rb&#10;entri&#9;FILE&#9;file:///Users/aki/rails_practice/app/controllers/customer/entries_controller.rb&#10;programpre&#9;FILE&#9;file:///Users/aki/rails_practice/app/presenters/program_presenter.rb&#10;program&#9;FILE&#9;file:///Users/aki/rails_practice/app/models/program.rb&#10;programs_con&#9;FILE&#9;file:///Users/aki/rails_practice/app/controllers/customer/programs_controller.rb&#10;prog&#9;FILE&#9;file:///Users/aki/rails_practice/app/controllers/staff/programs_controller.rb&#10;top_con&#9;FILE&#9;file:///Users/aki/rails_practice/app/controllers/customer/top_controller.rb&#10;top&#9;null&#9;null&#10;route&#9;FILE&#9;file:///Users/aki/rails_practice/config/routes.rb&#10;cof&#9;FILE&#9;file:///Users/aki/rails_practice/app/assets/javascripts/staff/entries_form.js.coffee&#10;pro&#9;FILE&#9;file:///Users/aki/rails_practice/app/controllers/staff/programs_controller.rb&#10;form.cs&#9;FILE&#9;file:///Users/aki/rails_practice/app/assets/stylesheets/staff/form.css.scss&#10;progra&#9;FILE&#9;file:///Users/aki/rails_practice/app/models/program.rb&#10;presen&#9;FILE&#9;file:///Users/aki/rails_practice/app/presenters/program_presenter.rb&#10;rails&#9;FILE&#9;file:///Users/aki/rails_practice/spec/rails_helper.rb&#10;con&#9;FILE&#9;file:///Users/aki/rails_practice/app/controllers/staff/programs_controller.rb&#10;dash&#9;FILE&#9;file:///Users/aki/rails_practice/app/views/staff/top/dashboard.html.erb&#10;staff&#9;FILE&#9;file:///Users/aki/rails_practice/app/models/staff_member.rb&#10;members_&#9;FILE&#9;file:///Users/aki/rails_practice/app/controllers/admin/staff_members_controller.rb&#10;staff_me&#9;FILE&#9;file:///Users/aki/rails_practice/app/models/staff_member.rb&#10;customer&#9;null&#9;null&#10;custo&#9;FILE&#9;file:///Users/aki/rails_practice/spec/factories/customers.rb&#10;entry&#9;null&#9;null&#10;spec&#9;FILE&#9;file:///Users/aki/rails_practice/spec/controllers/staff/top_controller_spec.rb&#10;base&#9;FILE&#9;file:///Users/aki/rails_practice/app/controllers/admin/base.rb&#10;a&#9;FILE&#9;file:///Users/aki/rails_practice/app/models/allowed_source.rb&#10;allowe&#9;FILE&#9;file:///Users/aki/rails_practice/app/models/allowed_source.rb&#10;in&#9;FILE&#9;file:///Users/aki/rails_practice/app/views/admin/allowed_sources/index.html.erb&#10;prese&#9;FILE&#9;file:///Users/aki/rails_practice/app/presenters/allowed_source_presenter.rb&#10;deve&#9;FILE&#9;file:///Users/aki/rails_practice/config/environments/development.rb&#10;top_controller_&#9;FILE&#9;file:///Users/aki/rails_practice/spec/controllers/staff/top_controller_spec.rb&#10;allow&#9;FILE&#9;file:///Users/aki/rails_practice/app/models/allowed_source.rb&#10;allowr&#9;FILE&#9;file:///Users/aki/rails_practice/app/models/allowed_source.rb&#10;appli&#9;null&#9;null&#10;session&#9;FILE&#9;file:///Users/aki/rails_practice/app/controllers/customer/sessions_controller.rb" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="ruby" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -885,13 +887,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101261000" />
+    <option name="totallyTimeSpent" value="102434000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="14" y="23" width="1346" height="676" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16871166" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16871166" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -912,28 +914,6 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16947852" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32761577" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3290441" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -942,16 +922,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/lib/html_builder.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/lib/date_string_validator.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/presenters/program_form_presenter.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="386">
@@ -992,9 +962,6 @@
           <caret line="40" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/staff/customers/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/staff/customers/_work_address_fields.html.erb">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1142,13 +1109,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="37" column="64" selection-start-line="37" selection-start-column="64" selection-end-line="37" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/customer/shared/_header.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1177,22 +1137,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/forms/customer/account_form.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/staff/customers/_customer_fields.html.erb">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/customer/accounts/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/customer/accounts/_customer_fields.html.erb">
       <provider selected="true" editor-type-id="text-editor">
@@ -1201,17 +1147,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/customer/accounts_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/customer/account_form.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/customer/form.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-334">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/staff/customers/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/customer/accounts/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/customer/accounts_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="41" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/forms/customer/account_form.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/customer/accounts/confirm.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
         </state>
       </provider>
     </entry>
