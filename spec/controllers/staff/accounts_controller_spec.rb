@@ -16,7 +16,7 @@ describe Staff::AccountsController do
 
         example 'email属性を変更する' do
             params_hash.merge!(email: 'test@example.com')
-            patch :update, id: staff_member.id, staff_member: params_hash
+            patch :update, id: staff_member.id, staff_member: params_hash, commit: '更新'
             staff_member.reload
             expect(staff_member.email).to eq('test@example.com')
         end
