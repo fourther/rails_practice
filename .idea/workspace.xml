@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8983074c-3523-40e1-98d4-696ff69fd9c6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/spec/controllers/staff/accounts_controller_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/controllers/staff/accounts_controller_spec.rb" afterDir="false" />
-    </list>
+    <list default="true" id="8983074c-3523-40e1-98d4-696ff69fd9c6" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -30,7 +28,7 @@
           <entry key="css" value="51" />
           <entry key="erb" value="8315" />
           <entry key="js" value="143" />
-          <entry key="rb" value="52260" />
+          <entry key="rb" value="53054" />
           <entry key="scss" value="1583" />
           <entry key="yml" value="1572" />
         </counts>
@@ -41,7 +39,7 @@
           <entry key="CoffeeScript" value="2388" />
           <entry key="JavaScript" value="143" />
           <entry key="RHTML" value="8315" />
-          <entry key="Ruby" value="52260" />
+          <entry key="Ruby" value="53054" />
           <entry key="SCSS" value="1583" />
           <entry key="YAML" value="1572" />
         </counts>
@@ -55,7 +53,7 @@
           <entry key="erb" value="115" />
           <entry key="js" value="7" />
           <entry key="lock" value="1" />
-          <entry key="rb" value="375" />
+          <entry key="rb" value="378" />
           <entry key="scss" value="37" />
           <entry key="yml" value="13" />
         </counts>
@@ -68,7 +66,7 @@
           <entry key="JavaScript" value="7" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="RHTML" value="115" />
-          <entry key="Ruby" value="376" />
+          <entry key="Ruby" value="379" />
           <entry key="SCSS" value="37" />
           <entry key="Scratch" value="1" />
           <entry key="YAML" value="13" />
@@ -87,7 +85,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/controllers/staff/accounts_controller_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="386">
@@ -97,9 +95,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/admin/staff_members_controller.rb">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20180909025337_create_entries.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20180912172445_create_messages.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state>
+              <caret column="46" selection-start-column="46" selection-end-line="7" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/features/staff/account_management_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-154" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/admin/staff_members_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-285">
               <caret column="16" selection-start-column="16" selection-end-column="16" />
             </state>
           </provider>
@@ -124,16 +147,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/presenters/model_presenter.rb">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/presenters/program_form_presenter.rb">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/presenters/staff_member_presenter.rb">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -145,11 +158,6 @@
               <caret line="46" column="2" selection-start-line="46" selection-start-column="2" selection-end-line="46" selection-end-column="2" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/presenters/staff_member_form_presenter.rb">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -174,7 +182,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/views/staff/top/dashboard.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/staff/tables.css.scss" />
         <option value="$PROJECT_DIR$/spec/rails_helper.rb" />
         <option value="$PROJECT_DIR$/spec/support/performance_spec_helper.rb" />
@@ -225,6 +232,7 @@
         <option value="$PROJECT_DIR$/app/controllers/staff/accounts_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/staff/accounts/confirm.html.erb" />
         <option value="$PROJECT_DIR$/spec/controllers/staff/accounts_controller_spec.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20180912172445_create_messages.rb" />
       </list>
     </option>
   </component>
@@ -680,13 +688,6 @@
               <item name="rails_practice" type="462c0819:PsiDirectoryNode" />
               <item name="spec" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="customer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rails_practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rails_practice" type="462c0819:PsiDirectoryNode" />
-              <item name="spec" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
               <item name="staff" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -750,11 +751,11 @@
       <recent name="$PROJECT_DIR$/app/presenters" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spec/features/staff" />
       <recent name="$PROJECT_DIR$/spec/features/customer" />
       <recent name="$PROJECT_DIR$/app/views/customer/accounts" />
       <recent name="$PROJECT_DIR$/app/views/customer/programs" />
       <recent name="$PROJECT_DIR$/app/assets/stylesheets/staff" />
-      <recent name="$PROJECT_DIR$/app/views/staff/programs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -888,7 +889,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108528000" />
+    <option name="totallyTimeSpent" value="109165000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="14" y="23" width="1346" height="676" extended-state="0" />
@@ -923,23 +924,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/customer/programs/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/customer/accounts/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/staff/customers/_customer_fields.html.erb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/presenters/allowed_source_presenter.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1161,13 +1145,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/admin/staff_members_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/staff/accounts_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -1189,10 +1166,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spec/features/staff/account_management_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-154" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/admin/staff_members_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-285">
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spec/controllers/staff/accounts_controller_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="386">
           <caret line="32" column="89" selection-start-line="32" selection-start-column="89" selection-end-line="32" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20180909025337_create_entries.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20180912172445_create_messages.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="46" selection-start-column="46" selection-end-line="7" selection-end-column="33" />
         </state>
       </provider>
     </entry>
