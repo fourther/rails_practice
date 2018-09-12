@@ -24,6 +24,7 @@ class Customer::AccountsController < Customer::Base
         if params[:commit]
             if @customer_form.save
                 flash.notice = 'アカウント情報を更新しました'
+                redirect_to :customer_account
             else
                 flash.now.alert = '入力に誤りがあります'
                 render action: 'edit'
