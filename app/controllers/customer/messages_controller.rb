@@ -1,4 +1,10 @@
 class Customer::MessagesController < Customer::Base
+    def index
+        @messages = CustomerMessage.where(deleted: false)
+        @messages = @messages.where('customer' => current_customer.id).page(params[:page])
+        # @messages = @messages.where('message_tag_links.tag_id' => params[:tag_id])
+    end
+
     def new
         @message = CustomerMessage.new
     end
