@@ -30,4 +30,8 @@ class Staff::MessagesController < Staff::Base
         flash.notice = '問い合わせを削除しました'
         redirect_to :back
     end
+
+    def show
+        @message = Message.find(params[:id])
+    end
 end
