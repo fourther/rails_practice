@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8983074c-3523-40e1-98d4-696ff69fd9c6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/models/message.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/message.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/presenters/message_presenter.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/presenters/message_presenter.rb" afterDir="false" />
-    </list>
+    <list default="true" id="8983074c-3523-40e1-98d4-696ff69fd9c6" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -31,7 +28,7 @@
           <entry key="css" value="51" />
           <entry key="erb" value="8735" />
           <entry key="js" value="143" />
-          <entry key="rb" value="58724" />
+          <entry key="rb" value="59776" />
           <entry key="scss" value="1602" />
           <entry key="yml" value="1572" />
         </counts>
@@ -42,7 +39,7 @@
           <entry key="CoffeeScript" value="2726" />
           <entry key="JavaScript" value="143" />
           <entry key="RHTML" value="8735" />
-          <entry key="Ruby" value="58724" />
+          <entry key="Ruby" value="59776" />
           <entry key="SCSS" value="1602" />
           <entry key="YAML" value="1572" />
         </counts>
@@ -56,7 +53,7 @@
           <entry key="erb" value="124" />
           <entry key="js" value="7" />
           <entry key="lock" value="1" />
-          <entry key="rb" value="404" />
+          <entry key="rb" value="406" />
           <entry key="scss" value="40" />
           <entry key="yml" value="13" />
         </counts>
@@ -69,7 +66,7 @@
           <entry key="JavaScript" value="7" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="RHTML" value="124" />
-          <entry key="Ruby" value="405" />
+          <entry key="Ruby" value="407" />
           <entry key="SCSS" value="40" />
           <entry key="Scratch" value="1" />
           <entry key="YAML" value="13" />
@@ -93,15 +90,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="401">
               <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/staff/shared/_header.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -133,11 +121,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/presenters/message_presenter.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="371">
               <caret line="68" column="32" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/factories/messages.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spec/features/staff/message_management_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -156,15 +162,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="690">
               <caret line="46" column="39" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/schema.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="115" column="26" selection-start-line="115" selection-start-column="26" selection-end-line="115" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -191,8 +188,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/services/customer/entry_acceptor.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/customer/entries_controller.rb" />
         <option value="$PROJECT_DIR$/app/presenters/program_presenter.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/customer/layout.css.scss" />
         <option value="$PROJECT_DIR$/app/views/customer/accounts/show.html.erb" />
@@ -242,6 +237,8 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/staff/divs_and_spans.css.scss" />
         <option value="$PROJECT_DIR$/app/presenters/message_presenter.rb" />
         <option value="$PROJECT_DIR$/app/models/message.rb" />
+        <option value="$PROJECT_DIR$/spec/factories/messages.rb" />
+        <option value="$PROJECT_DIR$/spec/features/staff/message_management_spec.rb" />
       </list>
     </option>
   </component>
@@ -943,7 +940,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116680000" />
+    <option name="totallyTimeSpent" value="117543000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="14" y="23" width="1346" height="676" extended-state="0" />
@@ -978,16 +975,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/staff/accounts/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/staff/accounts/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/presenters/user_form_presenter.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1284,6 +1271,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="371">
           <caret line="68" column="32" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/factories/messages.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/features/staff/message_management_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
         </state>
       </provider>
     </entry>
