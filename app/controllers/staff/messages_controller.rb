@@ -2,7 +2,7 @@ class Staff::MessagesController < Staff::Base
     before_action :reject_non_xhr, only: [ :count ]
 
     def index
-        @messages = Message.where(deleted: false)page(params[:page])
+        @messages = Message.where(deleted: false).page(params[:page])
     end
 
     def inbound
