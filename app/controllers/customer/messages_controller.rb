@@ -9,6 +9,13 @@ class Customer::MessagesController < Customer::Base
         @message = StaffMessage.find(params[:id])
     end
 
+    def destroy
+        message = StaffMessage.find(params[:id])
+        message.update_column(:deleted, true)
+        flash.notice = '問い合わせを削除しました'
+        redirect_to :back
+    end
+
     def new
         @message = CustomerMessage.new
     end
