@@ -60,6 +60,9 @@ Rails.application.routes.draw do
             end
             resources :messages, only: [ :index, :show, :destroy, :new, :create ] do
                 post :confirm, on: :collection
+                resource :reply, only: [ :new, :create ] do
+                    post :confirm
+                end
             end
         end
     end
