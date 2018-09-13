@@ -10,8 +10,10 @@ class Message < ActiveRecord::Base
 
     before_create do
         if parent
-            self.customer = parent.customer_id
+            self.customer = parent.customer
             self.root = parent.root || parent
         end
     end
+
+    default_scope { order(created_at: :desc)}
 end
