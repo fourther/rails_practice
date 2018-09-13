@@ -1,2 +1,2 @@
-$(document).on 'page:change', ->
+$(document).on 'turbolinks:load', ->
   $("#tag-it").tagit()
